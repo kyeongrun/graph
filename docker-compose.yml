@@ -1,0 +1,22 @@
+services:
+  age-db:
+    image: apache/age:release_PG16_1.5.0
+    container_name: internal-control-age-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${AGE_DB_USER:-graph_admin}
+      POSTGRES_PASSWORD: ${AGE_DB_PASSWORD:-changeme}
+      POSTGRES_DB: ${AGE_DB_NAME:-internal_control}
+    ports:
+      - "${AGE_DB_PORT:-5433}:5432"
+    volumes:
+      - age-db-data:/var/lib/postgresql/data
+      - ./sql/init_graph.sql:/docker-entrypoint-initdb.d/01_init_graph.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${AGE_DB_USER:-graph_admin} -d ${AGE_DB_NAME:-internal_control}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  age-db-data:

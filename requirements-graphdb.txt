@@ -1,0 +1,20 @@
+# Graph DB module dependencies. Versions match the RAG project's pinned
+# stack (see project environment notes) wherever the package already
+# appears there; the few additions needed specifically for Apache AGE
+# connectivity are marked below.
+
+psycopg==3.3.4
+psycopg-binary==3.3.2
+psycopg-pool==3.3.1  # added: connection pooling for psycopg3 (AsyncConnectionPool)
+pydantic==2.13.4
+pydantic-settings==2.14.1
+pyyaml==6.0.3
+python-dotenv==1.2.2
+
+# LLM-based document extraction (uses the project's existing vLLM server)
+langchain-core==1.4.0
+langchain-openai==1.2.1
+
+# Test-only
+pytest==8.4.1  # added: test runner
+pytest-asyncio==1.4.0  # added: async test support
