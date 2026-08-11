@@ -126,9 +126,9 @@
       "id": "GENERIC",
       "name": "일반경량동사",
       "description": "정보량이 낮은 일반 동사 — 문맥(주어/목적어) 없이는 분류 불가, 3단계 SVO에서 재판정 필요",
-      "member_count": 4,
-      "occurrence_count": 9711,
-      "occurrence_pct": 8.58,
+      "member_count": 5,
+      "occurrence_count": 9957,
+      "occurrence_pct": 8.8,
       "members": [
         [
           "하다",
@@ -137,6 +137,10 @@
         [
           "적다",
           249
+        ],
+        [
+          "알다",
+          246
         ],
         [
           "주다",
@@ -688,9 +692,9 @@
       "id": "REPORT",
       "name": "보고공시",
       "description": "보고·통지·공시·공개·전달",
-      "member_count": 45,
-      "occurrence_count": 2530,
-      "occurrence_pct": 2.24,
+      "member_count": 43,
+      "occurrence_count": 2462,
+      "occurrence_pct": 2.18,
       "members": [
         [
           "보고하다",
@@ -737,10 +741,6 @@
           68
         ],
         [
-          "접수하다",
-          59
-        ],
-        [
           "통보받다",
           49
         ],
@@ -749,16 +749,16 @@
           49
         ],
         [
-          "접수되다",
-          44
-        ],
-        [
           "공개하다",
           44
         ],
         [
           "공개되다",
           41
+        ],
+        [
+          "설명하다",
+          37
         ],
         [
           "게재하다",
@@ -841,10 +841,6 @@
           2
         ],
         [
-          "문의하다",
-          2
-        ],
-        [
           "송수신하다",
           1
         ],
@@ -923,10 +919,10 @@
     {
       "id": "SUBMIT",
       "name": "제출신청",
-      "description": "제출·신청·기재",
-      "member_count": 15,
-      "occurrence_count": 1966,
-      "occurrence_pct": 1.74,
+      "description": "제출·신청·기재·접수 (제출 트랜잭션의 양쪽 당사자)",
+      "member_count": 18,
+      "occurrence_count": 2109,
+      "occurrence_pct": 1.86,
       "members": [
         [
           "제출하다",
@@ -957,12 +953,24 @@
           74
         ],
         [
+          "접수하다",
+          59
+        ],
+        [
           "제출받다",
           53
         ],
         [
+          "접수되다",
+          44
+        ],
+        [
           "제출되다",
           43
+        ],
+        [
+          "제기하다",
+          40
         ],
         [
           "서명하다",
@@ -2217,10 +2225,10 @@
     {
       "id": "DEMAND",
       "name": "요구명령",
-      "description": "요구·요청·권고·응답",
-      "member_count": 13,
-      "occurrence_count": 1261,
-      "occurrence_pct": 1.11,
+      "description": "요구·요청·권고·응답·문의",
+      "member_count": 14,
+      "occurrence_count": 1263,
+      "occurrence_pct": 1.12,
       "members": [
         [
           "요구하다",
@@ -2273,6 +2281,10 @@
         [
           "불응하다",
           7
+        ],
+        [
+          "문의하다",
+          2
         ]
       ]
     },
@@ -2776,25 +2788,17 @@
       "id": "APPOINT",
       "name": "선임임면",
       "description": "선임·임면·위촉·채용",
-      "member_count": 39,
-      "occurrence_count": 836,
-      "occurrence_pct": 0.74,
+      "member_count": 35,
+      "occurrence_count": 695,
+      "occurrence_pct": 0.61,
       "members": [
         [
           "선임하다",
           146
         ],
         [
-          "대행하다",
-          71
-        ],
-        [
           "선임되다",
           70
-        ],
-        [
-          "대리하다",
-          56
         ],
         [
           "추천하다",
@@ -2851,10 +2855,6 @@
         [
           "위촉되다",
           14
-        ],
-        [
-          "보좌하다",
-          13
         ],
         [
           "고용하다",
@@ -2925,74 +2925,12 @@
           1
         ],
         [
-          "대리시키다",
-          1
-        ],
-        [
           "중임하다",
           1
         ],
         [
           "겸임하다",
           1
-        ]
-      ]
-    },
-    {
-      "id": "MISC_ACT",
-      "name": "기타서술",
-      "description": "그 외 저빈도 서술 동사",
-      "member_count": 12,
-      "occurrence_count": 659,
-      "occurrence_pct": 0.58,
-      "members": [
-        [
-          "알다",
-          246
-        ],
-        [
-          "남다",
-          53
-        ],
-        [
-          "붙이다",
-          47
-        ],
-        [
-          "내다",
-          47
-        ],
-        [
-          "빼다",
-          47
-        ],
-        [
-          "제기하다",
-          40
-        ],
-        [
-          "설명하다",
-          37
-        ],
-        [
-          "나다",
-          33
-        ],
-        [
-          "합하다",
-          31
-        ],
-        [
-          "걸리다",
-          28
-        ],
-        [
-          "붙다",
-          27
-        ],
-        [
-          "넣다",
-          23
         ]
       ]
     },
@@ -3461,6 +3399,52 @@
       ]
     },
     {
+      "id": "AUTHORITY",
+      "name": "권한부여행사",
+      "description": "권한·권리를 부여·행사하거나 대표·대행함",
+      "member_count": 9,
+      "occurrence_count": 443,
+      "occurrence_pct": 0.39,
+      "members": [
+        [
+          "행사하다",
+          239
+        ],
+        [
+          "대행하다",
+          71
+        ],
+        [
+          "대리하다",
+          56
+        ],
+        [
+          "부여하다",
+          34
+        ],
+        [
+          "대표하다",
+          29
+        ],
+        [
+          "부여되다",
+          8
+        ],
+        [
+          "행사되다",
+          4
+        ],
+        [
+          "부여받다",
+          1
+        ],
+        [
+          "대리시키다",
+          1
+        ]
+      ]
+    },
+    {
       "id": "SANCTION",
       "name": "부과제재",
       "description": "부과·처분·시정·형벌",
@@ -3527,58 +3511,48 @@
       ]
     },
     {
-      "id": "AUTHORITY",
-      "name": "권한부여행사",
-      "description": "권한·권리를 부여하거나 행사·대표함",
-      "member_count": 6,
-      "occurrence_count": 315,
-      "occurrence_pct": 0.28,
+      "id": "MISC_ACT",
+      "name": "기타서술",
+      "description": "그 외 저빈도 서술 동사",
+      "member_count": 9,
+      "occurrence_count": 336,
+      "occurrence_pct": 0.3,
       "members": [
         [
-          "행사하다",
-          239
+          "남다",
+          53
         ],
         [
-          "부여하다",
-          34
+          "붙이다",
+          47
         ],
         [
-          "대표하다",
-          29
+          "내다",
+          47
         ],
         [
-          "부여되다",
-          8
+          "빼다",
+          47
         ],
         [
-          "행사되다",
-          4
+          "나다",
+          33
         ],
         [
-          "부여받다",
-          1
-        ]
-      ]
-    },
-    {
-      "id": "CONSIDER",
-      "name": "고려참작",
-      "description": "고려·감안·참작",
-      "member_count": 3,
-      "occurrence_count": 312,
-      "occurrence_pct": 0.28,
-      "members": [
-        [
-          "고려하다",
-          295
+          "합하다",
+          31
         ],
         [
-          "감안하다",
-          16
+          "걸리다",
+          28
         ],
         [
-          "참작하다",
-          1
+          "붙다",
+          27
+        ],
+        [
+          "넣다",
+          23
         ]
       ]
     },
@@ -3586,9 +3560,9 @@
       "id": "PROTECT",
       "name": "보호지원",
       "description": "보호·지원·협조",
-      "member_count": 10,
-      "occurrence_count": 304,
-      "occurrence_pct": 0.27,
+      "member_count": 11,
+      "occurrence_count": 317,
+      "occurrence_pct": 0.28,
       "members": [
         [
           "보호하다",
@@ -3611,6 +3585,10 @@
           14
         ],
         [
+          "보좌하다",
+          13
+        ],
+        [
           "응대하다",
           11
         ],
@@ -3628,6 +3606,28 @@
         ],
         [
           "지지하다",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "CONSIDER",
+      "name": "고려참작",
+      "description": "고려·감안·참작",
+      "member_count": 3,
+      "occurrence_count": 312,
+      "occurrence_pct": 0.28,
+      "members": [
+        [
+          "고려하다",
+          295
+        ],
+        [
+          "감안하다",
+          16
+        ],
+        [
+          "참작하다",
           1
         ]
       ]
