@@ -11,9 +11,14 @@ pydantic-settings==2.14.1
 pyyaml==6.0.3
 python-dotenv==1.2.2
 
-# LLM-based document extraction (uses the project's existing vLLM server)
-langchain-core==1.4.0
-langchain-openai==1.2.1
+# 형태소분석 (2단계: 동사 파악/그룹핑 파이프라인, Kiwi 기반)
+kiwipiepy==0.23.2
+kiwipiepy_model==0.23.0
+
+# 문서 추출용으로 도입했었으나 LLM 추출 방식은 폐기됨 (CLAUDE.md 참고).
+# ingest/document_extractor.py는 현재 미사용 — 재사용 시에만 주석 해제.
+# langchain-core==1.4.0
+# langchain-openai==1.2.1
 
 # Test-only
 pytest==8.4.1  # added: test runner
