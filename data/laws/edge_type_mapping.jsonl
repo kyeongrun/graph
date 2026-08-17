@@ -1,0 +1,913 @@
+{"root": "정", "count": 6957, "members": [{"l": "정하다", "c": 6957}], "edge_type": "PRESCRIBES"}
+{"root": "시행", "count": 1600, "members": [{"l": "시행하다", "c": 1599}, {"l": "시행되다", "c": 1}], "edge_type": "ENFORCES"}
+{"root": "포함", "count": 1571, "members": [{"l": "포함하다", "c": 1318}, {"l": "포함되다", "c": 240}, {"l": "포함시키다", "c": 13}], "edge_type": "APPLIES_LAW"}
+{"root": "개정", "count": 1554, "members": [{"l": "개정하다", "c": 1448}, {"l": "개정되다", "c": 106}], "edge_type": "AMENDS"}
+{"root": "고시", "count": 1502, "members": [{"l": "고시하다", "c": 1502}], "edge_type": "PRESCRIBES"}
+{"root": "위반", "count": 1342, "members": [{"l": "위반하다", "c": 1310}, {"l": "위반되다", "c": 32}], "edge_type": "VIOLATES"}
+{"root": "제외", "count": 1210, "members": [{"l": "제외하다", "c": 1192}, {"l": "제외되다", "c": 18}], "edge_type": "EXCLUDES"}
+{"root": "적용", "count": 926, "members": [{"l": "적용하다", "c": 882}, {"l": "적용되다", "c": 33}, {"l": "적용받다", "c": 11}], "edge_type": "APPLIES_LAW"}
+{"root": "발행", "count": 806, "members": [{"l": "발행하다", "c": 710}, {"l": "발행되다", "c": 96}], "edge_type": "ISSUES"}
+{"root": "인정", "count": 788, "members": [{"l": "인정되다", "c": 456}, {"l": "인정하다", "c": 331}, {"l": "인정받다", "c": 1}], "edge_type": "EVALUATES"}
+{"root": "제출", "count": 739, "members": [{"l": "제출하다", "c": 643}, {"l": "제출받다", "c": 53}, {"l": "제출되다", "c": 43}], "edge_type": "SUBMITS"}
+{"root": "공포", "count": 650, "members": [{"l": "공포하다", "c": 589}, {"l": "공포되다", "c": 61}], "edge_type": "ENACTS"}
+{"root": "초과", "count": 619, "members": [{"l": "초과하다", "c": 618}, {"l": "초과되다", "c": 1}], "edge_type": "EXCEEDS"}
+{"root": "갖추다", "count": 539, "members": [{"l": "갖추다", "c": 539}], "edge_type": "SATISFIES"}
+{"root": "요구", "count": 538, "members": [{"l": "요구하다", "c": 507}, {"l": "요구되다", "c": 16}, {"l": "요구받다", "c": 15}], "edge_type": "REQUESTS"}
+{"root": "수행", "count": 480, "members": [{"l": "수행하다", "c": 477}, {"l": "수행되다", "c": 3}], "edge_type": "PERFORMS"}
+{"root": "발생", "count": 458, "members": [{"l": "발생하다", "c": 448}, {"l": "발생시키다", "c": 9}, {"l": "발생되다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "제공", "count": 457, "members": [{"l": "제공하다", "c": 364}, {"l": "제공되다", "c": 50}, {"l": "제공받다", "c": 43}], "edge_type": "SUPPORTS"}
+{"root": "취득", "count": 445, "members": [{"l": "취득하다", "c": 443}, {"l": "취득시키다", "c": 2}], "edge_type": "ACQUIRES"}
+{"root": "확인", "count": 439, "members": [{"l": "확인하다", "c": 405}, {"l": "확인되다", "c": 33}, {"l": "확인시키다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "경과", "count": 426, "members": [{"l": "경과하다", "c": 422}, {"l": "경과되다", "c": 4}], "edge_type": "EXPIRES"}
+{"root": "규정", "count": 405, "members": [{"l": "규정하다", "c": 302}, {"l": "규정되다", "c": 103}], "edge_type": "PRESCRIBES"}
+{"root": "한정", "count": 395, "members": [{"l": "한정하다", "c": 393}, {"l": "한정되다", "c": 2}], "edge_type": "EXCLUDES"}
+{"root": "삭제", "count": 393, "members": [{"l": "삭제하다", "c": 393}], "edge_type": "DELETES_PROVISION"}
+{"root": "보고", "count": 382, "members": [{"l": "보고하다", "c": 351}, {"l": "보고되다", "c": 19}, {"l": "보고받다", "c": 12}], "edge_type": "NOTIFIES"}
+{"root": "설립", "count": 377, "members": [{"l": "설립되다", "c": 299}, {"l": "설립하다", "c": 78}], "edge_type": "ESTABLISHES"}
+{"root": "변경", "count": 359, "members": [{"l": "변경하다", "c": 249}, {"l": "변경되다", "c": 110}], "edge_type": "AMENDS"}
+{"root": "운용", "count": 358, "members": [{"l": "운용하다", "c": 354}, {"l": "운용되다", "c": 4}], "edge_type": "USES"}
+{"root": "소유", "count": 345, "members": [{"l": "소유하다", "c": 344}, {"l": "소유되다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "지급", "count": 326, "members": [{"l": "지급하다", "c": 281}, {"l": "지급되다", "c": 30}, {"l": "지급받다", "c": 15}], "edge_type": "PAYS"}
+{"root": "이용", "count": 324, "members": [{"l": "이용하다", "c": 319}, {"l": "이용되다", "c": 5}], "edge_type": "USES"}
+{"root": "기재", "count": 320, "members": [{"l": "기재하다", "c": 246}, {"l": "기재되다", "c": 74}], "edge_type": "RECORDS"}
+{"root": "영위", "count": 318, "members": [{"l": "영위하다", "c": 318}], "edge_type": "MANAGES"}
+{"root": "통지", "count": 318, "members": [{"l": "통지하다", "c": 315}, {"l": "통지받다", "c": 2}, {"l": "통지되다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "통보", "count": 318, "members": [{"l": "통보하다", "c": 265}, {"l": "통보받다", "c": 49}, {"l": "통보되다", "c": 4}], "edge_type": "NOTIFIES"}
+{"root": "보유", "count": 310, "members": [{"l": "보유하다", "c": 309}, {"l": "보유되다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "고려", "count": 295, "members": [{"l": "고려하다", "c": 295}], "edge_type": "REVIEWS"}
+{"root": "신청", "count": 292, "members": [{"l": "신청하다", "c": 275}, {"l": "신청되다", "c": 10}, {"l": "신청받다", "c": 7}], "edge_type": "REQUESTS"}
+{"root": "등록", "count": 289, "members": [{"l": "등록하다", "c": 200}, {"l": "등록되다", "c": 89}], "edge_type": "REGISTERS"}
+{"root": "충족", "count": 279, "members": [{"l": "충족하다", "c": 272}, {"l": "충족시키다", "c": 6}, {"l": "충족되다", "c": 1}], "edge_type": "SATISFIES"}
+{"root": "체결", "count": 278, "members": [{"l": "체결하다", "c": 242}, {"l": "체결되다", "c": 30}, {"l": "체결시키다", "c": 6}], "edge_type": "TRANSACTS_WITH"}
+{"root": "표시", "count": 276, "members": [{"l": "표시하다", "c": 148}, {"l": "표시되다", "c": 128}], "edge_type": "RECORDS"}
+{"root": "요청", "count": 265, "members": [{"l": "요청하다", "c": 252}, {"l": "요청받다", "c": 13}], "edge_type": "REQUESTS"}
+{"root": "적다", "count": 249, "members": [{"l": "적다", "c": 249}], "edge_type": "RECORDS"}
+{"root": "알다", "count": 246, "members": [{"l": "알다", "c": 246}], "edge_type": "REVIEWS"}
+{"root": "행사", "count": 243, "members": [{"l": "행사하다", "c": 239}, {"l": "행사되다", "c": 4}], "edge_type": "PERFORMS"}
+{"root": "위탁", "count": 237, "members": [{"l": "위탁하다", "c": 201}, {"l": "위탁받다", "c": 32}, {"l": "위탁되다", "c": 4}], "edge_type": "DELEGATES_TO"}
+{"root": "처리", "count": 220, "members": [{"l": "처리하다", "c": 210}, {"l": "처리되다", "c": 10}], "edge_type": "PERFORMS"}
+{"root": "사용", "count": 220, "members": [{"l": "사용하다", "c": 195}, {"l": "사용되다", "c": 25}], "edge_type": "USES"}
+{"root": "선임", "count": 216, "members": [{"l": "선임하다", "c": 146}, {"l": "선임되다", "c": 70}], "edge_type": "APPOINTS"}
+{"root": "결정", "count": 213, "members": [{"l": "결정하다", "c": 194}, {"l": "결정되다", "c": 19}], "edge_type": "DELIBERATES"}
+{"root": "작성", "count": 209, "members": [{"l": "작성하다", "c": 195}, {"l": "작성되다", "c": 14}], "edge_type": "RECORDS"}
+{"root": "신고", "count": 208, "members": [{"l": "신고하다", "c": 192}, {"l": "신고되다", "c": 15}, {"l": "신고받다", "c": 1}], "edge_type": "REGISTERS"}
+{"root": "관리", "count": 202, "members": [{"l": "관리하다", "c": 196}, {"l": "관리되다", "c": 6}], "edge_type": "MANAGES"}
+{"root": "지정", "count": 196, "members": [{"l": "지정하다", "c": 150}, {"l": "지정되다", "c": 46}], "edge_type": "APPOINTS"}
+{"root": "투자", "count": 192, "members": [{"l": "투자하다", "c": 188}, {"l": "투자되다", "c": 4}], "edge_type": "INVESTS"}
+{"root": "산정", "count": 190, "members": [{"l": "산정하다", "c": 148}, {"l": "산정되다", "c": 42}], "edge_type": "CALCULATES"}
+{"root": "이행", "count": 189, "members": [{"l": "이행하다", "c": 185}, {"l": "이행되다", "c": 4}], "edge_type": "PERFORMS"}
+{"root": "해치다", "count": 188, "members": [{"l": "해치다", "c": 188}], "edge_type": "VIOLATES"}
+{"root": "첨부", "count": 187, "members": [{"l": "첨부하다", "c": 180}, {"l": "첨부되다", "c": 7}], "edge_type": "SUBMITS"}
+{"root": "신설", "count": 187, "members": [{"l": "신설하다", "c": 179}, {"l": "신설되다", "c": 8}], "edge_type": "ESTABLISHES"}
+{"root": "공시", "count": 187, "members": [{"l": "공시하다", "c": 170}, {"l": "공시되다", "c": 17}], "edge_type": "DISCLOSES"}
+{"root": "명", "count": 186, "members": [{"l": "명하다", "c": 186}], "edge_type": "SANCTIONS"}
+{"root": "부과", "count": 185, "members": [{"l": "부과하다", "c": 171}, {"l": "부과받다", "c": 10}, {"l": "부과되다", "c": 4}], "edge_type": "SANCTIONS"}
+{"root": "청구", "count": 181, "members": [{"l": "청구하다", "c": 177}, {"l": "청구되다", "c": 4}], "edge_type": "REQUESTS"}
+{"root": "미치다", "count": 174, "members": [{"l": "미치다", "c": 174}], "edge_type": "AFFECTS"}
+{"root": "상장", "count": 171, "members": [{"l": "상장되다", "c": 123}, {"l": "상장하다", "c": 48}], "edge_type": "ISSUES"}
+{"root": "유지", "count": 167, "members": [{"l": "유지하다", "c": 157}, {"l": "유지되다", "c": 10}], "edge_type": "PERFORMS"}
+{"root": "취소", "count": 167, "members": [{"l": "취소하다", "c": 120}, {"l": "취소되다", "c": 47}], "edge_type": "SANCTIONS"}
+{"root": "두다", "count": 166, "members": [{"l": "두다", "c": 166}], "edge_type": "ESTABLISHES"}
+{"root": "알리다", "count": 166, "members": [{"l": "알리다", "c": 166}], "edge_type": "NOTIFIES"}
+{"root": "증명", "count": 164, "members": [{"l": "증명하다", "c": 160}, {"l": "증명되다", "c": 4}], "edge_type": "EVALUATES"}
+{"root": "거치다", "count": 157, "members": [{"l": "거치다", "c": 157}], "edge_type": "PERFORMS"}
+{"root": "가지다", "count": 155, "members": [{"l": "가지다", "c": 155}], "edge_type": "HOLDS"}
+{"root": "방지", "count": 154, "members": [{"l": "방지하다", "c": 154}], "edge_type": "PROTECTS"}
+{"root": "보호", "count": 152, "members": [{"l": "보호하다", "c": 152}], "edge_type": "PROTECTS"}
+{"root": "준수", "count": 149, "members": [{"l": "준수하다", "c": 147}, {"l": "준수되다", "c": 2}], "edge_type": "COMPLIES"}
+{"root": "지나다", "count": 148, "members": [{"l": "지나다", "c": 148}], "edge_type": "EXPIRES"}
+{"root": "행", "count": 139, "members": [{"l": "행하다", "c": 139}], "edge_type": "PERFORMS"}
+{"root": "설정", "count": 136, "members": [{"l": "설정하다", "c": 97}, {"l": "설정되다", "c": 39}], "edge_type": "ESTABLISHES"}
+{"root": "판매", "count": 133, "members": [{"l": "판매하다", "c": 131}, {"l": "판매되다", "c": 2}], "edge_type": "DISPOSES"}
+{"root": "공고", "count": 131, "members": [{"l": "공고하다", "c": 119}, {"l": "공고되다", "c": 12}], "edge_type": "DISCLOSES"}
+{"root": "설치", "count": 129, "members": [{"l": "설치하다", "c": 79}, {"l": "설치되다", "c": 50}], "edge_type": "ESTABLISHES"}
+{"root": "처분", "count": 123, "members": [{"l": "처분하다", "c": 123}], "edge_type": "SANCTIONS", "edge_type_alt": ["DISPOSES"], "needs_context": true}
+{"root": "출자", "count": 123, "members": [{"l": "출자하다", "c": 119}, {"l": "출자되다", "c": 4}], "edge_type": "INVESTS"}
+{"root": "실시", "count": 122, "members": [{"l": "실시하다", "c": 109}, {"l": "실시되다", "c": 13}], "edge_type": "PERFORMS"}
+{"root": "응", "count": 110, "members": [{"l": "응하다", "c": 110}], "edge_type": "COMPLIES"}
+{"root": "지배", "count": 103, "members": [{"l": "지배하다", "c": 103}], "edge_type": "MANAGES"}
+{"root": "제한", "count": 103, "members": [{"l": "제한하다", "c": 67}, {"l": "제한되다", "c": 35}, {"l": "제한받다", "c": 1}], "edge_type": "RESTRICTS"}
+{"root": "접수", "count": 103, "members": [{"l": "접수하다", "c": 59}, {"l": "접수되다", "c": 44}], "edge_type": "SUBMITS"}
+{"root": "매수", "count": 102, "members": [{"l": "매수하다", "c": 102}], "edge_type": "ACQUIRES"}
+{"root": "종료", "count": 101, "members": [{"l": "종료되다", "c": 62}, {"l": "종료하다", "c": 39}], "edge_type": "TERMINATES"}
+{"root": "운영", "count": 99, "members": [{"l": "운영하다", "c": 89}, {"l": "운영되다", "c": 10}], "edge_type": "MANAGES"}
+{"root": "판단", "count": 99, "members": [{"l": "판단하다", "c": 52}, {"l": "판단되다", "c": 47}], "edge_type": "DELIBERATES"}
+{"root": "도래", "count": 98, "members": [{"l": "도래하다", "c": 98}], "edge_type": "OCCURS"}
+{"root": "부정", "count": 97, "members": [{"l": "부정하다", "c": 97}], "edge_type": "DENIES"}
+{"root": "해", "count": 96, "members": [{"l": "해하다", "c": 96}], "edge_type": "VIOLATES"}
+{"root": "종사", "count": 94, "members": [{"l": "종사하다", "c": 94}], "edge_type": "WORKS_AT"}
+{"root": "연장", "count": 94, "members": [{"l": "연장하다", "c": 91}, {"l": "연장되다", "c": 3}], "edge_type": "CONTINUES"}
+{"root": "모집", "count": 94, "members": [{"l": "모집하다", "c": 90}, {"l": "모집되다", "c": 4}], "edge_type": "ISSUES"}
+{"root": "이전", "count": 94, "members": [{"l": "이전하다", "c": 82}, {"l": "이전되다", "c": 12}], "edge_type": "DISPOSES"}
+{"root": "주다", "count": 92, "members": [{"l": "주다", "c": 92}], "edge_type": "SUPPORTS"}
+{"root": "끝나다", "count": 92, "members": [{"l": "끝나다", "c": 92}], "edge_type": "TERMINATES"}
+{"root": "평가", "count": 91, "members": [{"l": "평가하다", "c": 83}, {"l": "평가받다", "c": 7}, {"l": "평가되다", "c": 1}], "edge_type": "EVALUATES"}
+{"root": "거래", "count": 91, "members": [{"l": "거래하다", "c": 52}, {"l": "거래되다", "c": 39}], "edge_type": "TRANSACTS_WITH"}
+{"root": "구성", "count": 89, "members": [{"l": "구성하다", "c": 58}, {"l": "구성되다", "c": 31}], "edge_type": "ESTABLISHES"}
+{"root": "경영", "count": 87, "members": [{"l": "경영하다", "c": 87}], "edge_type": "MANAGES"}
+{"root": "합병", "count": 85, "members": [{"l": "합병하다", "c": 79}, {"l": "합병되다", "c": 6}], "edge_type": "MERGES_WITH"}
+{"root": "공개", "count": 85, "members": [{"l": "공개하다", "c": 44}, {"l": "공개되다", "c": 41}], "edge_type": "DISCLOSES"}
+{"root": "지다", "count": 83, "members": [{"l": "지다", "c": 83}], "edge_type": "PAYS"}
+{"root": "납부", "count": 81, "members": [{"l": "납부하다", "c": 81}], "edge_type": "PAYS"}
+{"root": "양도", "count": 81, "members": [{"l": "양도하다", "c": 75}, {"l": "양도되다", "c": 6}], "edge_type": "DISPOSES"}
+{"root": "시정", "count": 79, "members": [{"l": "시정하다", "c": 77}, {"l": "시정되다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "징수", "count": 78, "members": [{"l": "징수하다", "c": 77}, {"l": "징수되다", "c": 1}], "edge_type": "PAYS"}
+{"root": "소집", "count": 78, "members": [{"l": "소집하다", "c": 55}, {"l": "소집되다", "c": 23}], "edge_type": "CONVENES"}
+{"root": "송부", "count": 77, "members": [{"l": "송부하다", "c": 70}, {"l": "송부받다", "c": 4}, {"l": "송부되다", "c": 3}], "edge_type": "SUBMITS"}
+{"root": "처", "count": 76, "members": [{"l": "처하다", "c": 76}], "edge_type": "SANCTIONS"}
+{"root": "예탁", "count": 76, "members": [{"l": "예탁하다", "c": 67}, {"l": "예탁되다", "c": 9}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "소속", "count": 75, "members": [{"l": "소속되다", "c": 62}, {"l": "소속하다", "c": 13}], "edge_type": "WORKS_AT"}
+{"root": "담당", "count": 74, "members": [{"l": "담당하다", "c": 74}], "edge_type": "WORKS_AT"}
+{"root": "교부", "count": 74, "members": [{"l": "교부하다", "c": 73}, {"l": "교부되다", "c": 1}], "edge_type": "ISSUES"}
+{"root": "계산", "count": 74, "members": [{"l": "계산하다", "c": 72}, {"l": "계산되다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "매매", "count": 72, "members": [{"l": "매매하다", "c": 70}, {"l": "매매되다", "c": 2}], "edge_type": "TRANSACTS_WITH"}
+{"root": "확정", "count": 72, "members": [{"l": "확정되다", "c": 58}, {"l": "확정하다", "c": 14}], "edge_type": "DELIBERATES"}
+{"root": "전환", "count": 72, "members": [{"l": "전환되다", "c": 39}, {"l": "전환하다", "c": 33}], "edge_type": "CONVERTS_TO"}
+{"root": "대행", "count": 71, "members": [{"l": "대행하다", "c": 71}], "edge_type": "DELEGATES_TO"}
+{"root": "매도", "count": 70, "members": [{"l": "매도하다", "c": 70}], "edge_type": "DISPOSES"}
+{"root": "시작", "count": 70, "members": [{"l": "시작하다", "c": 47}, {"l": "시작되다", "c": 23}], "edge_type": "COMMENCES"}
+{"root": "부담", "count": 69, "members": [{"l": "부담하다", "c": 67}, {"l": "부담시키다", "c": 2}], "edge_type": "PAYS"}
+{"root": "계속", "count": 69, "members": [{"l": "계속하다", "c": 58}, {"l": "계속되다", "c": 11}], "edge_type": "CONTINUES"}
+{"root": "확보", "count": 69, "members": [{"l": "확보하다", "c": 57}, {"l": "확보되다", "c": 12}], "edge_type": "HOLDS"}
+{"root": "밝히다", "count": 68, "members": [{"l": "밝히다", "c": 68}], "edge_type": "NOTIFIES"}
+{"root": "거부", "count": 68, "members": [{"l": "거부하다", "c": 65}, {"l": "거부되다", "c": 3}], "edge_type": "REJECTS"}
+{"root": "취", "count": 67, "members": [{"l": "취하다", "c": 67}], "edge_type": "PERFORMS"}
+{"root": "마련", "count": 67, "members": [{"l": "마련하다", "c": 57}, {"l": "마련되다", "c": 10}], "edge_type": "ESTABLISHES"}
+{"root": "인수", "count": 65, "members": [{"l": "인수하다", "c": 65}], "edge_type": "ACQUIRES"}
+{"root": "의결", "count": 65, "members": [{"l": "의결하다", "c": 64}, {"l": "의결되다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "지원", "count": 65, "members": [{"l": "지원하다", "c": 59}, {"l": "지원되다", "c": 4}, {"l": "지원받다", "c": 2}], "edge_type": "SUPPORTS"}
+{"root": "면제", "count": 65, "members": [{"l": "면제하다", "c": 40}, {"l": "면제되다", "c": 24}, {"l": "면제받다", "c": 1}], "edge_type": "EXEMPTS"}
+{"root": "저해", "count": 64, "members": [{"l": "저해하다", "c": 51}, {"l": "저해되다", "c": 13}], "edge_type": "VIOLATES"}
+{"root": "회피", "count": 63, "members": [{"l": "회피하다", "c": 63}], "edge_type": "PERFORMS"}
+{"root": "공표", "count": 63, "members": [{"l": "공표하다", "c": 49}, {"l": "공표되다", "c": 14}], "edge_type": "DISCLOSES"}
+{"root": "검토", "count": 62, "members": [{"l": "검토하다", "c": 61}, {"l": "검토되다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "제시", "count": 62, "members": [{"l": "제시하다", "c": 58}, {"l": "제시되다", "c": 4}], "edge_type": "SUBMITS"}
+{"root": "매출", "count": 62, "members": [{"l": "매출하다", "c": 41}, {"l": "매출되다", "c": 21}], "edge_type": "DISPOSES"}
+{"root": "출석", "count": 61, "members": [{"l": "출석하다", "c": 59}, {"l": "출석시키다", "c": 2}], "edge_type": "CONVENES"}
+{"root": "배상", "count": 60, "members": [{"l": "배상하다", "c": 60}], "edge_type": "PAYS"}
+{"root": "누설", "count": 60, "members": [{"l": "누설하다", "c": 59}, {"l": "누설되다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "개설", "count": 59, "members": [{"l": "개설하다", "c": 54}, {"l": "개설되다", "c": 5}], "edge_type": "ESTABLISHES"}
+{"root": "보증", "count": 58, "members": [{"l": "보증하다", "c": 57}, {"l": "보증되다", "c": 1}], "edge_type": "GUARANTEES"}
+{"root": "결의", "count": 58, "members": [{"l": "결의하다", "c": 57}, {"l": "결의되다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "협의", "count": 57, "members": [{"l": "협의하다", "c": 57}], "edge_type": "DELIBERATES"}
+{"root": "동의", "count": 57, "members": [{"l": "동의하다", "c": 57}], "edge_type": "APPROVES"}
+{"root": "대리", "count": 57, "members": [{"l": "대리하다", "c": 56}, {"l": "대리시키다", "c": 1}], "edge_type": "DELEGATES_TO"}
+{"root": "추천", "count": 56, "members": [{"l": "추천하다", "c": 55}, {"l": "추천되다", "c": 1}], "edge_type": "APPOINTS"}
+{"root": "적립", "count": 56, "members": [{"l": "적립하다", "c": 47}, {"l": "적립되다", "c": 9}], "edge_type": "HOLDS"}
+{"root": "소멸", "count": 56, "members": [{"l": "소멸하다", "c": 36}, {"l": "소멸되다", "c": 15}, {"l": "소멸시키다", "c": 5}], "edge_type": "TERMINATES"}
+{"root": "임명", "count": 56, "members": [{"l": "임명되다", "c": 31}, {"l": "임명하다", "c": 25}], "edge_type": "APPOINTS"}
+{"root": "편입", "count": 55, "members": [{"l": "편입하다", "c": 31}, {"l": "편입되다", "c": 24}], "edge_type": "APPLIES_LAW"}
+{"root": "중개", "count": 54, "members": [{"l": "중개하다", "c": 53}, {"l": "중개되다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "제기", "count": 54, "members": [{"l": "제기하다", "c": 40}, {"l": "제기되다", "c": 14}], "edge_type": "REQUESTS"}
+{"root": "진행", "count": 54, "members": [{"l": "진행되다", "c": 38}, {"l": "진행하다", "c": 16}], "edge_type": "PERFORMS"}
+{"root": "남다", "count": 53, "members": [{"l": "남다", "c": 53}], "edge_type": "CONTINUES"}
+{"root": "미달", "count": 53, "members": [{"l": "미달하다", "c": 53}], "edge_type": "FALLS_SHORT_OF"}
+{"root": "등기", "count": 53, "members": [{"l": "등기하다", "c": 53}], "edge_type": "REGISTERS"}
+{"root": "해산", "count": 53, "members": [{"l": "해산하다", "c": 43}, {"l": "해산되다", "c": 10}], "edge_type": "DISSOLVES"}
+{"root": "합산", "count": 52, "members": [{"l": "합산하다", "c": 52}], "edge_type": "CALCULATES"}
+{"root": "만료", "count": 52, "members": [{"l": "만료되다", "c": 48}, {"l": "만료하다", "c": 4}], "edge_type": "EXPIRES"}
+{"root": "폐지", "count": 52, "members": [{"l": "폐지하다", "c": 43}, {"l": "폐지되다", "c": 9}], "edge_type": "DISSOLVES"}
+{"root": "임용", "count": 52, "members": [{"l": "임용하다", "c": 32}, {"l": "임용되다", "c": 20}], "edge_type": "APPOINTS"}
+{"root": "심사", "count": 51, "members": [{"l": "심사하다", "c": 51}], "edge_type": "REVIEWS"}
+{"root": "권고", "count": 51, "members": [{"l": "권고하다", "c": 51}], "edge_type": "REQUESTS"}
+{"root": "권유", "count": 51, "members": [{"l": "권유하다", "c": 51}], "edge_type": "REQUESTS"}
+{"root": "해임", "count": 51, "members": [{"l": "해임하다", "c": 35}, {"l": "해임되다", "c": 16}], "edge_type": "DISMISSES"}
+{"root": "제정", "count": 50, "members": [{"l": "제정하다", "c": 48}, {"l": "제정되다", "c": 2}], "edge_type": "ENACTS"}
+{"root": "존속", "count": 50, "members": [{"l": "존속하다", "c": 45}, {"l": "존속되다", "c": 4}, {"l": "존속시키다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "배분", "count": 49, "members": [{"l": "배분하다", "c": 46}, {"l": "배분되다", "c": 3}], "edge_type": "PAYS"}
+{"root": "비치", "count": 48, "members": [{"l": "비치하다", "c": 45}, {"l": "비치되다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "위촉", "count": 48, "members": [{"l": "위촉하다", "c": 34}, {"l": "위촉되다", "c": 14}], "edge_type": "APPOINTS"}
+{"root": "붙이다", "count": 47, "members": [{"l": "붙이다", "c": 47}], "edge_type": "SUBMITS"}
+{"root": "내다", "count": 47, "members": [{"l": "내다", "c": 47}], "edge_type": "PAYS"}
+{"root": "빼다", "count": 47, "members": [{"l": "빼다", "c": 47}], "edge_type": "CALCULATES"}
+{"root": "산출", "count": 47, "members": [{"l": "산출하다", "c": 42}, {"l": "산출되다", "c": 5}], "edge_type": "CALCULATES"}
+{"root": "반환", "count": 46, "members": [{"l": "반환하다", "c": 43}, {"l": "반환되다", "c": 3}], "edge_type": "PAYS"}
+{"root": "납입", "count": 46, "members": [{"l": "납입하다", "c": 26}, {"l": "납입되다", "c": 17}, {"l": "납입시키다", "c": 3}], "edge_type": "PAYS"}
+{"root": "발견", "count": 46, "members": [{"l": "발견되다", "c": 23}, {"l": "발견하다", "c": 23}], "edge_type": "REVIEWS"}
+{"root": "감독", "count": 45, "members": [{"l": "감독하다", "c": 45}], "edge_type": "SUPERVISES"}
+{"root": "차입", "count": 45, "members": [{"l": "차입하다", "c": 44}, {"l": "차입되다", "c": 1}], "edge_type": "BORROWS"}
+{"root": "완료", "count": 45, "members": [{"l": "완료하다", "c": 30}, {"l": "완료되다", "c": 15}], "edge_type": "TERMINATES"}
+{"root": "보관", "count": 44, "members": [{"l": "보관하다", "c": 42}, {"l": "보관되다", "c": 2}], "edge_type": "HOLDS"}
+{"root": "수립", "count": 44, "members": [{"l": "수립하다", "c": 41}, {"l": "수립되다", "c": 3}], "edge_type": "ESTABLISHES"}
+{"root": "지명", "count": 43, "members": [{"l": "지명하다", "c": 41}, {"l": "지명되다", "c": 2}], "edge_type": "APPOINTS"}
+{"root": "게재", "count": 43, "members": [{"l": "게재하다", "c": 36}, {"l": "게재되다", "c": 7}], "edge_type": "DISCLOSES"}
+{"root": "부여", "count": 43, "members": [{"l": "부여하다", "c": 34}, {"l": "부여되다", "c": 8}, {"l": "부여받다", "c": 1}], "edge_type": "GRANTS"}
+{"root": "보장", "count": 43, "members": [{"l": "보장하다", "c": 29}, {"l": "보장되다", "c": 14}], "edge_type": "GRANTS"}
+{"root": "성립", "count": 43, "members": [{"l": "성립되다", "c": 27}, {"l": "성립하다", "c": 11}, {"l": "성립시키다", "c": 5}], "edge_type": "OCCURS"}
+{"root": "위임", "count": 43, "members": [{"l": "위임되다", "c": 26}, {"l": "위임하다", "c": 17}], "edge_type": "DELEGATES_TO"}
+{"root": "퇴직", "count": 42, "members": [{"l": "퇴직하다", "c": 40}, {"l": "퇴직되다", "c": 2}], "edge_type": "RESIGNS"}
+{"root": "해지", "count": 42, "members": [{"l": "해지하다", "c": 31}, {"l": "해지되다", "c": 11}], "edge_type": "TERMINATES"}
+{"root": "정지", "count": 42, "members": [{"l": "정지되다", "c": 22}, {"l": "정지하다", "c": 20}], "edge_type": "SANCTIONS"}
+{"root": "산입", "count": 41, "members": [{"l": "산입하다", "c": 40}, {"l": "산입되다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "집행", "count": 41, "members": [{"l": "집행하다", "c": 39}, {"l": "집행되다", "c": 2}], "edge_type": "PERFORMS"}
+{"root": "회수", "count": 41, "members": [{"l": "회수하다", "c": 39}, {"l": "회수되다", "c": 2}], "edge_type": "PAYS"}
+{"root": "변동", "count": 41, "members": [{"l": "변동되다", "c": 32}, {"l": "변동하다", "c": 8}, {"l": "변동시키다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "교환", "count": 41, "members": [{"l": "교환하다", "c": 32}, {"l": "교환되다", "c": 9}], "edge_type": "TRANSACTS_WITH"}
+{"root": "조사", "count": 40, "members": [{"l": "조사하다", "c": 40}], "edge_type": "REVIEWS"}
+{"root": "분할", "count": 40, "members": [{"l": "분할하다", "c": 27}, {"l": "분할되다", "c": 13}], "edge_type": "DIVIDES_INTO"}
+{"root": "게시", "count": 39, "members": [{"l": "게시하다", "c": 36}, {"l": "게시되다", "c": 3}], "edge_type": "DISCLOSES"}
+{"root": "금지", "count": 39, "members": [{"l": "금지하다", "c": 21}, {"l": "금지되다", "c": 18}], "edge_type": "RESTRICTS"}
+{"root": "노력", "count": 38, "members": [{"l": "노력하다", "c": 38}], "edge_type": "PERFORMS"}
+{"root": "대항", "count": 38, "members": [{"l": "대항하다", "c": 38}], "edge_type": "GRANTS"}
+{"root": "설명", "count": 38, "members": [{"l": "설명하다", "c": 37}, {"l": "설명되다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "반영", "count": 38, "members": [{"l": "반영하다", "c": 33}, {"l": "반영되다", "c": 4}, {"l": "반영시키다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "선정", "count": 38, "members": [{"l": "선정하다", "c": 32}, {"l": "선정되다", "c": 6}], "edge_type": "APPOINTS"}
+{"root": "기록", "count": 38, "members": [{"l": "기록하다", "c": 31}, {"l": "기록되다", "c": 7}], "edge_type": "RECORDS"}
+{"root": "완화", "count": 38, "members": [{"l": "완화되다", "c": 30}, {"l": "완화하다", "c": 8}], "edge_type": "EXEMPTS"}
+{"root": "허용", "count": 38, "members": [{"l": "허용되다", "c": 22}, {"l": "허용하다", "c": 16}], "edge_type": "EXEMPTS"}
+{"root": "귀속", "count": 38, "members": [{"l": "귀속되다", "c": 16}, {"l": "귀속시키다", "c": 13}, {"l": "귀속하다", "c": 9}], "edge_type": "HOLDS"}
+{"root": "승계", "count": 37, "members": [{"l": "승계하다", "c": 37}], "edge_type": "ACQUIRES"}
+{"root": "보전", "count": 37, "members": [{"l": "보전하다", "c": 36}, {"l": "보전되다", "c": 1}], "edge_type": "PROTECTS"}
+{"root": "신탁", "count": 37, "members": [{"l": "신탁하다", "c": 25}, {"l": "신탁되다", "c": 11}, {"l": "신탁받다", "c": 1}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "점검", "count": 36, "members": [{"l": "점검하다", "c": 36}], "edge_type": "REVIEWS"}
+{"root": "활용", "count": 36, "members": [{"l": "활용하다", "c": 30}, {"l": "활용되다", "c": 6}], "edge_type": "USES"}
+{"root": "침해", "count": 36, "members": [{"l": "침해하다", "c": 26}, {"l": "침해되다", "c": 10}], "edge_type": "VIOLATES"}
+{"root": "개시", "count": 36, "members": [{"l": "개시하다", "c": 21}, {"l": "개시되다", "c": 15}], "edge_type": "COMMENCES"}
+{"root": "열람", "count": 35, "members": [{"l": "열람하다", "c": 28}, {"l": "열람되다", "c": 7}], "edge_type": "REVIEWS"}
+{"root": "상실", "count": 35, "members": [{"l": "상실되다", "c": 20}, {"l": "상실하다", "c": 15}], "edge_type": "LOSES"}
+{"root": "양수", "count": 34, "members": [{"l": "양수하다", "c": 34}], "edge_type": "ACQUIRES"}
+{"root": "강요", "count": 34, "members": [{"l": "강요하다", "c": 34}], "edge_type": "VIOLATES"}
+{"root": "참여", "count": 34, "members": [{"l": "참여하다", "c": 30}, {"l": "참여시키다", "c": 4}], "edge_type": "WORKS_AT"}
+{"root": "배정", "count": 34, "members": [{"l": "배정하다", "c": 28}, {"l": "배정되다", "c": 5}, {"l": "배정받다", "c": 1}], "edge_type": "PAYS"}
+{"root": "나다", "count": 33, "members": [{"l": "나다", "c": 33}], "edge_type": "OCCURS"}
+{"root": "인도", "count": 33, "members": [{"l": "인도하다", "c": 21}, {"l": "인도받다", "c": 10}, {"l": "인도되다", "c": 2}], "edge_type": "DISPOSES"}
+{"root": "수리", "count": 33, "members": [{"l": "수리하다", "c": 19}, {"l": "수리되다", "c": 14}], "edge_type": "APPROVES"}
+{"root": "근무", "count": 32, "members": [{"l": "근무하다", "c": 32}], "edge_type": "WORKS_AT"}
+{"root": "마치다", "count": 32, "members": [{"l": "마치다", "c": 32}], "edge_type": "TERMINATES"}
+{"root": "변제", "count": 32, "members": [{"l": "변제하다", "c": 32}], "edge_type": "PAYS"}
+{"root": "퇴임", "count": 32, "members": [{"l": "퇴임하다", "c": 32}], "edge_type": "RESIGNS"}
+{"root": "이첩", "count": 32, "members": [{"l": "이첩하다", "c": 31}, {"l": "이첩되다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "철회", "count": 32, "members": [{"l": "철회하다", "c": 28}, {"l": "철회되다", "c": 4}], "edge_type": "REJECTS"}
+{"root": "충당", "count": 32, "members": [{"l": "충당하다", "c": 27}, {"l": "충당되다", "c": 5}], "edge_type": "PAYS"}
+{"root": "연기", "count": 32, "members": [{"l": "연기하다", "c": 23}, {"l": "연기되다", "c": 9}], "edge_type": "CONTINUES"}
+{"root": "소요", "count": 31, "members": [{"l": "소요되다", "c": 31}], "edge_type": "CALCULATES"}
+{"root": "합", "count": 31, "members": [{"l": "합하다", "c": 31}], "edge_type": "CALCULATES"}
+{"root": "승인", "count": 31, "members": [{"l": "승인하다", "c": 27}, {"l": "승인되다", "c": 4}], "edge_type": "APPROVES"}
+{"root": "종결", "count": 31, "members": [{"l": "종결하다", "c": 14}, {"l": "종결되다", "c": 12}, {"l": "종결시키다", "c": 5}], "edge_type": "TERMINATES"}
+{"root": "방해", "count": 30, "members": [{"l": "방해하다", "c": 30}], "edge_type": "VIOLATES"}
+{"root": "서명", "count": 30, "members": [{"l": "서명하다", "c": 30}], "edge_type": "RECORDS"}
+{"root": "명시", "count": 30, "members": [{"l": "명시하다", "c": 28}, {"l": "명시되다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "대표", "count": 29, "members": [{"l": "대표하다", "c": 29}], "edge_type": "DELEGATES_TO"}
+{"root": "환매", "count": 29, "members": [{"l": "환매하다", "c": 29}], "edge_type": "ACQUIRES"}
+{"root": "곱", "count": 29, "members": [{"l": "곱하다", "c": 29}], "edge_type": "CALCULATES"}
+{"root": "검사", "count": 28, "members": [{"l": "검사하다", "c": 28}], "edge_type": "REVIEWS"}
+{"root": "지키다", "count": 28, "members": [{"l": "지키다", "c": 28}], "edge_type": "COMPLIES"}
+{"root": "걸리다", "count": 28, "members": [{"l": "걸리다", "c": 28}], "edge_type": "CALCULATES"}
+{"root": "추가", "count": 28, "members": [{"l": "추가하다", "c": 27}, {"l": "추가되다", "c": 1}], "edge_type": "APPLIES_LAW"}
+{"root": "가입", "count": 28, "members": [{"l": "가입하다", "c": 21}, {"l": "가입시키다", "c": 5}, {"l": "가입되다", "c": 2}], "edge_type": "WORKS_AT"}
+{"root": "높이다", "count": 27, "members": [{"l": "높이다", "c": 27}], "edge_type": "AMENDS"}
+{"root": "기피", "count": 27, "members": [{"l": "기피하다", "c": 27}], "edge_type": "PERFORMS"}
+{"root": "붙다", "count": 27, "members": [{"l": "붙다", "c": 27}], "edge_type": "SUBMITS"}
+{"root": "약속", "count": 27, "members": [{"l": "약속하다", "c": 27}], "edge_type": "TRANSACTS_WITH"}
+{"root": "생기다", "count": 27, "members": [{"l": "생기다", "c": 27}], "edge_type": "OCCURS"}
+{"root": "약정", "count": 27, "members": [{"l": "약정하다", "c": 26}, {"l": "약정되다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "초래", "count": 27, "members": [{"l": "초래하다", "c": 25}, {"l": "초래되다", "c": 2}], "edge_type": "AFFECTS"}
+{"root": "상환", "count": 27, "members": [{"l": "상환하다", "c": 22}, {"l": "상환되다", "c": 5}], "edge_type": "PAYS"}
+{"root": "가져오다", "count": 26, "members": [{"l": "가져오다", "c": 26}], "edge_type": "AFFECTS"}
+{"root": "생략", "count": 26, "members": [{"l": "생략하다", "c": 26}], "edge_type": "EXCLUDES"}
+{"root": "형성", "count": 26, "members": [{"l": "형성되다", "c": 22}, {"l": "형성하다", "c": 3}, {"l": "형성시키다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "중단", "count": 26, "members": [{"l": "중단하다", "c": 18}, {"l": "중단되다", "c": 8}], "edge_type": "TERMINATES"}
+{"root": "관여", "count": 25, "members": [{"l": "관여하다", "c": 25}], "edge_type": "WORKS_AT"}
+{"root": "협조", "count": 25, "members": [{"l": "협조하다", "c": 25}], "edge_type": "SUPPORTS"}
+{"root": "달성", "count": 25, "members": [{"l": "달성하다", "c": 24}, {"l": "달성되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "개최", "count": 25, "members": [{"l": "개최하다", "c": 24}, {"l": "개최되다", "c": 1}], "edge_type": "CONVENES"}
+{"root": "매입", "count": 25, "members": [{"l": "매입하다", "c": 21}, {"l": "매입시키다", "c": 4}], "edge_type": "ACQUIRES"}
+{"root": "보내다", "count": 24, "members": [{"l": "보내다", "c": 24}], "edge_type": "SUBMITS"}
+{"root": "연대", "count": 24, "members": [{"l": "연대하다", "c": 24}], "edge_type": "GUARANTEES"}
+{"root": "파악", "count": 24, "members": [{"l": "파악하다", "c": 24}], "edge_type": "REVIEWS"}
+{"root": "도달", "count": 24, "members": [{"l": "도달하다", "c": 23}, {"l": "도달되다", "c": 1}], "edge_type": "SATISFIES"}
+{"root": "청약", "count": 24, "members": [{"l": "청약하다", "c": 22}, {"l": "청약되다", "c": 2}], "edge_type": "REQUESTS"}
+{"root": "보완", "count": 24, "members": [{"l": "보완하다", "c": 21}, {"l": "보완되다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "보존", "count": 23, "members": [{"l": "보존하다", "c": 23}], "edge_type": "RECORDS"}
+{"root": "정정", "count": 23, "members": [{"l": "정정하다", "c": 23}], "edge_type": "RECORDS"}
+{"root": "넣다", "count": 23, "members": [{"l": "넣다", "c": 23}], "edge_type": "APPLIES_LAW"}
+{"root": "진술", "count": 22, "members": [{"l": "진술하다", "c": 22}], "edge_type": "NOTIFIES"}
+{"root": "입증", "count": 22, "members": [{"l": "입증하다", "c": 22}], "edge_type": "EVALUATES"}
+{"root": "반복", "count": 22, "members": [{"l": "반복하다", "c": 22}], "edge_type": "CONTINUES"}
+{"root": "합격", "count": 22, "members": [{"l": "합격하다", "c": 22}], "edge_type": "SATISFIES"}
+{"root": "몰수", "count": 22, "members": [{"l": "몰수하다", "c": 22}], "edge_type": "SANCTIONS"}
+{"root": "해제", "count": 22, "members": [{"l": "해제하다", "c": 21}, {"l": "해제되다", "c": 1}], "edge_type": "TERMINATES"}
+{"root": "이해", "count": 22, "members": [{"l": "이해하다", "c": 21}, {"l": "이해되다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "예정", "count": 22, "members": [{"l": "예정되다", "c": 20}, {"l": "예정하다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "말소", "count": 22, "members": [{"l": "말소하다", "c": 14}, {"l": "말소되다", "c": 8}], "edge_type": "SANCTIONS"}
+{"root": "해소", "count": 22, "members": [{"l": "해소되다", "c": 12}, {"l": "해소하다", "c": 10}], "edge_type": "TERMINATES"}
+{"root": "심의", "count": 21, "members": [{"l": "심의하다", "c": 21}], "edge_type": "DELIBERATES"}
+{"root": "이바지", "count": 21, "members": [{"l": "이바지하다", "c": 21}], "edge_type": "SUPPORTS"}
+{"root": "도모", "count": 21, "members": [{"l": "도모하다", "c": 21}], "edge_type": "SUPPORTS"}
+{"root": "감사", "count": 21, "members": [{"l": "감사하다", "c": 21}], "edge_type": "SUPERVISES"}
+{"root": "반대", "count": 21, "members": [{"l": "반대하다", "c": 21}], "edge_type": "REJECTS"}
+{"root": "조치", "count": 21, "members": [{"l": "조치하다", "c": 20}, {"l": "조치되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "합의", "count": 21, "members": [{"l": "합의하다", "c": 18}, {"l": "합의되다", "c": 3}], "edge_type": "DELIBERATES"}
+{"root": "의뢰", "count": 21, "members": [{"l": "의뢰하다", "c": 18}, {"l": "의뢰받다", "c": 3}], "edge_type": "REQUESTS"}
+{"root": "발급", "count": 21, "members": [{"l": "발급하다", "c": 18}, {"l": "발급되다", "c": 3}], "edge_type": "ISSUES"}
+{"root": "환급", "count": 21, "members": [{"l": "환급하다", "c": 18}, {"l": "환급받다", "c": 3}], "edge_type": "PAYS"}
+{"root": "공유", "count": 21, "members": [{"l": "공유하다", "c": 15}, {"l": "공유되다", "c": 6}], "edge_type": "HOLDS"}
+{"root": "분리", "count": 21, "members": [{"l": "분리하다", "c": 12}, {"l": "분리되다", "c": 9}], "edge_type": "EXCLUDES"}
+{"root": "재직", "count": 20, "members": [{"l": "재직하다", "c": 20}], "edge_type": "WORKS_AT"}
+{"root": "지출", "count": 20, "members": [{"l": "지출하다", "c": 20}], "edge_type": "PAYS"}
+{"root": "넘다", "count": 20, "members": [{"l": "넘다", "c": 20}], "edge_type": "EXCEEDS"}
+{"root": "비교", "count": 20, "members": [{"l": "비교하다", "c": 20}], "edge_type": "REVIEWS"}
+{"root": "나누다", "count": 20, "members": [{"l": "나누다", "c": 20}], "edge_type": "CALCULATES"}
+{"root": "대여", "count": 20, "members": [{"l": "대여하다", "c": 20}], "edge_type": "LENDS"}
+{"root": "거절", "count": 20, "members": [{"l": "거절하다", "c": 19}, {"l": "거절되다", "c": 1}], "edge_type": "REJECTS"}
+{"root": "조달", "count": 19, "members": [{"l": "조달하다", "c": 19}], "edge_type": "ACQUIRES"}
+{"root": "안내", "count": 19, "members": [{"l": "안내하다", "c": 19}], "edge_type": "NOTIFIES"}
+{"root": "예방", "count": 19, "members": [{"l": "예방하다", "c": 19}], "edge_type": "PROTECTS"}
+{"root": "끼치다", "count": 19, "members": [{"l": "끼치다", "c": 19}], "edge_type": "AFFECTS"}
+{"root": "겸영", "count": 19, "members": [{"l": "겸영하다", "c": 19}], "edge_type": "WORKS_AT"}
+{"root": "겸직", "count": 19, "members": [{"l": "겸직하다", "c": 19}], "edge_type": "WORKS_AT"}
+{"root": "선고", "count": 19, "members": [{"l": "선고받다", "c": 19}], "edge_type": "SANCTIONS"}
+{"root": "예상", "count": 19, "members": [{"l": "예상되다", "c": 19}], "edge_type": "REVIEWS"}
+{"root": "공여", "count": 19, "members": [{"l": "공여하다", "c": 19}], "edge_type": "PAYS"}
+{"root": "수탁", "count": 19, "members": [{"l": "수탁하다", "c": 19}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "공제", "count": 19, "members": [{"l": "공제하다", "c": 17}, {"l": "공제되다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "조성", "count": 19, "members": [{"l": "조성하다", "c": 15}, {"l": "조성되다", "c": 4}], "edge_type": "ESTABLISHES"}
+{"root": "지니다", "count": 18, "members": [{"l": "지니다", "c": 18}], "edge_type": "HOLDS"}
+{"root": "분석", "count": 18, "members": [{"l": "분석하다", "c": 18}], "edge_type": "REVIEWS"}
+{"root": "맞다", "count": 18, "members": [{"l": "맞다", "c": 18}], "edge_type": "SATISFIES"}
+{"root": "기여", "count": 18, "members": [{"l": "기여하다", "c": 18}], "edge_type": "SUPPORTS"}
+{"root": "중지", "count": 18, "members": [{"l": "중지하다", "c": 16}, {"l": "중지되다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "유예", "count": 18, "members": [{"l": "유예하다", "c": 16}, {"l": "유예받다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "결성", "count": 18, "members": [{"l": "결성하다", "c": 16}, {"l": "결성되다", "c": 2}], "edge_type": "ESTABLISHES"}
+{"root": "계상", "count": 18, "members": [{"l": "계상하다", "c": 13}, {"l": "계상되다", "c": 5}], "edge_type": "RECORDS"}
+{"root": "내보이다", "count": 17, "members": [{"l": "내보이다", "c": 17}], "edge_type": "DISCLOSES"}
+{"root": "적히다", "count": 17, "members": [{"l": "적히다", "c": 17}], "edge_type": "RECORDS"}
+{"root": "강제", "count": 17, "members": [{"l": "강제되다", "c": 17}], "edge_type": "VIOLATES"}
+{"root": "의심", "count": 17, "members": [{"l": "의심되다", "c": 16}, {"l": "의심받다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "훼손", "count": 17, "members": [{"l": "훼손하다", "c": 15}, {"l": "훼손되다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "누락", "count": 17, "members": [{"l": "누락되다", "c": 10}, {"l": "누락하다", "c": 7}], "edge_type": "RECORDS"}
+{"root": "감소", "count": 17, "members": [{"l": "감소하다", "c": 9}, {"l": "감소시키다", "c": 4}, {"l": "감소되다", "c": 4}], "edge_type": "AMENDS"}
+{"root": "보정", "count": 16, "members": [{"l": "보정하다", "c": 16}], "edge_type": "RECORDS"}
+{"root": "사망", "count": 16, "members": [{"l": "사망하다", "c": 16}], "edge_type": "OCCURS"}
+{"root": "감안", "count": 16, "members": [{"l": "감안하다", "c": 16}], "edge_type": "REVIEWS"}
+{"root": "총괄", "count": 16, "members": [{"l": "총괄하다", "c": 16}], "edge_type": "MANAGES"}
+{"root": "연임", "count": 16, "members": [{"l": "연임하다", "c": 16}], "edge_type": "APPOINTS"}
+{"root": "환수", "count": 16, "members": [{"l": "환수하다", "c": 16}], "edge_type": "SANCTIONS"}
+{"root": "차지", "count": 16, "members": [{"l": "차지하다", "c": 16}], "edge_type": "HOLDS"}
+{"root": "교차", "count": 16, "members": [{"l": "교차하다", "c": 16}], "edge_type": "TRANSACTS_WITH"}
+{"root": "요", "count": 16, "members": [{"l": "요하다", "c": 16}], "edge_type": "REQUESTS"}
+{"root": "수수", "count": 16, "members": [{"l": "수수하다", "c": 16}], "edge_type": "PAYS"}
+{"root": "공급", "count": 16, "members": [{"l": "공급하다", "c": 16}], "edge_type": "SUPPORTS"}
+{"root": "대응", "count": 16, "members": [{"l": "대응하다", "c": 15}, {"l": "대응되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "증가", "count": 16, "members": [{"l": "증가하다", "c": 14}, {"l": "증가시키다", "c": 2}], "edge_type": "AMENDS"}
+{"root": "추심", "count": 16, "members": [{"l": "추심하다", "c": 11}, {"l": "추심되다", "c": 5}], "edge_type": "PAYS"}
+{"root": "연계", "count": 16, "members": [{"l": "연계되다", "c": 8}, {"l": "연계하다", "c": 8}], "edge_type": "TRANSACTS_WITH"}
+{"root": "입히다", "count": 15, "members": [{"l": "입히다", "c": 15}], "edge_type": "VIOLATES"}
+{"root": "구축", "count": 15, "members": [{"l": "구축하다", "c": 15}], "edge_type": "ESTABLISHES"}
+{"root": "매각", "count": 15, "members": [{"l": "매각하다", "c": 15}], "edge_type": "DISPOSES"}
+{"root": "배당", "count": 15, "members": [{"l": "배당하다", "c": 15}], "edge_type": "PAYS"}
+{"root": "응시", "count": 15, "members": [{"l": "응시하다", "c": 15}], "edge_type": "REQUESTS"}
+{"root": "통합", "count": 15, "members": [{"l": "통합하다", "c": 15}], "edge_type": "MERGES_WITH"}
+{"root": "지속", "count": 15, "members": [{"l": "지속되다", "c": 13}, {"l": "지속시키다", "c": 1}, {"l": "지속하다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "예치", "count": 15, "members": [{"l": "예치하다", "c": 13}, {"l": "예치되다", "c": 2}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "고용", "count": 15, "members": [{"l": "고용하다", "c": 11}, {"l": "고용되다", "c": 4}], "edge_type": "APPOINTS"}
+{"root": "파견", "count": 15, "members": [{"l": "파견하다", "c": 10}, {"l": "파견되다", "c": 5}], "edge_type": "DELEGATES_TO"}
+{"root": "각하", "count": 14, "members": [{"l": "각하하다", "c": 14}], "edge_type": "REJECTS"}
+{"root": "날인", "count": 14, "members": [{"l": "날인하다", "c": 14}], "edge_type": "RECORDS"}
+{"root": "임면", "count": 14, "members": [{"l": "임면하다", "c": 14}], "edge_type": "APPOINTS", "edge_type_alt": ["DISMISSES"], "needs_context": true}
+{"root": "벌", "count": 14, "members": [{"l": "벌하다", "c": 14}], "edge_type": "SANCTIONS"}
+{"root": "갖다", "count": 14, "members": [{"l": "갖다", "c": 14}], "edge_type": "HOLDS"}
+{"root": "관할", "count": 14, "members": [{"l": "관할하다", "c": 14}], "edge_type": "SUPERVISES"}
+{"root": "소명", "count": 14, "members": [{"l": "소명하다", "c": 13}, {"l": "소명되다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "출연", "count": 14, "members": [{"l": "출연하다", "c": 12}, {"l": "출연되다", "c": 1}, {"l": "출연받다", "c": 1}], "edge_type": "PAYS"}
+{"root": "담보", "count": 14, "members": [{"l": "담보되다", "c": 9}, {"l": "담보하다", "c": 5}], "edge_type": "GUARANTEES"}
+{"root": "수렴", "count": 14, "members": [{"l": "수렴하다", "c": 9}, {"l": "수렴되다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "보좌", "count": 13, "members": [{"l": "보좌하다", "c": 13}], "edge_type": "SUPPORTS"}
+{"root": "개선", "count": 13, "members": [{"l": "개선하다", "c": 13}], "edge_type": "PERFORMS"}
+{"root": "소재", "count": 13, "members": [{"l": "소재하다", "c": 13}], "edge_type": "WORKS_AT"}
+{"root": "이수", "count": 13, "members": [{"l": "이수하다", "c": 13}], "edge_type": "PERFORMS"}
+{"root": "차감", "count": 13, "members": [{"l": "차감하다", "c": 13}], "edge_type": "CALCULATES"}
+{"root": "파산", "count": 13, "members": [{"l": "파산하다", "c": 13}], "edge_type": "TERMINATES"}
+{"root": "분배", "count": 13, "members": [{"l": "분배하다", "c": 12}, {"l": "분배되다", "c": 1}], "edge_type": "PAYS"}
+{"root": "지연", "count": 13, "members": [{"l": "지연하다", "c": 7}, {"l": "지연시키다", "c": 4}, {"l": "지연되다", "c": 2}], "edge_type": "CONTINUES"}
+{"root": "종합", "count": 12, "members": [{"l": "종합하다", "c": 12}], "edge_type": "CALCULATES"}
+{"root": "감경", "count": 12, "members": [{"l": "감경하다", "c": 12}], "edge_type": "SANCTIONS"}
+{"root": "범", "count": 12, "members": [{"l": "범하다", "c": 12}], "edge_type": "VIOLATES"}
+{"root": "모으다", "count": 12, "members": [{"l": "모으다", "c": 12}], "edge_type": "HOLDS"}
+{"root": "수령", "count": 12, "members": [{"l": "수령하다", "c": 12}], "edge_type": "PAYS"}
+{"root": "대신", "count": 12, "members": [{"l": "대신하다", "c": 12}], "edge_type": "DELEGATES_TO"}
+{"root": "추진", "count": 12, "members": [{"l": "추진하다", "c": 12}], "edge_type": "PERFORMS"}
+{"root": "대출", "count": 12, "members": [{"l": "대출하다", "c": 12}], "edge_type": "LENDS"}
+{"root": "반송", "count": 12, "members": [{"l": "반송되다", "c": 10}, {"l": "반송하다", "c": 2}], "edge_type": "SUBMITS"}
+{"root": "추징", "count": 12, "members": [{"l": "추징하다", "c": 10}, {"l": "추징되다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "폐쇄", "count": 12, "members": [{"l": "폐쇄하다", "c": 10}, {"l": "폐쇄되다", "c": 2}], "edge_type": "DISSOLVES"}
+{"root": "감면", "count": 12, "members": [{"l": "감면되다", "c": 8}, {"l": "감면하다", "c": 4}], "edge_type": "EXEMPTS"}
+{"root": "방문", "count": 11, "members": [{"l": "방문하다", "c": 11}], "edge_type": "PERFORMS"}
+{"root": "전담", "count": 11, "members": [{"l": "전담하다", "c": 11}], "edge_type": "WORKS_AT"}
+{"root": "사다", "count": 11, "members": [{"l": "사다", "c": 11}], "edge_type": "ACQUIRES"}
+{"root": "응대", "count": 11, "members": [{"l": "응대하다", "c": 11}], "edge_type": "NOTIFIES"}
+{"root": "차단", "count": 11, "members": [{"l": "차단하다", "c": 11}], "edge_type": "RESTRICTS"}
+{"root": "지시", "count": 11, "members": [{"l": "지시하다", "c": 11}], "edge_type": "SANCTIONS"}
+{"root": "감액", "count": 11, "members": [{"l": "감액하다", "c": 10}, {"l": "감액되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "참석", "count": 11, "members": [{"l": "참석하다", "c": 10}, {"l": "참석시키다", "c": 1}], "edge_type": "CONVENES"}
+{"root": "수집", "count": 11, "members": [{"l": "수집하다", "c": 9}, {"l": "수집되다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "갱신", "count": 11, "members": [{"l": "갱신하다", "c": 9}, {"l": "갱신되다", "c": 2}], "edge_type": "CONTINUES"}
+{"root": "선출", "count": 11, "members": [{"l": "선출하다", "c": 8}, {"l": "선출되다", "c": 3}], "edge_type": "APPOINTS"}
+{"root": "연동", "count": 11, "members": [{"l": "연동하다", "c": 8}, {"l": "연동되다", "c": 3}], "edge_type": "TRANSACTS_WITH"}
+{"root": "검증", "count": 10, "members": [{"l": "검증하다", "c": 10}], "edge_type": "EVALUATES"}
+{"root": "우대", "count": 10, "members": [{"l": "우대하다", "c": 10}], "edge_type": "EXEMPTS"}
+{"root": "편성", "count": 10, "members": [{"l": "편성하다", "c": 10}], "edge_type": "ESTABLISHES"}
+{"root": "조회", "count": 10, "members": [{"l": "조회하다", "c": 10}], "edge_type": "REVIEWS"}
+{"root": "차별", "count": 10, "members": [{"l": "차별하다", "c": 10}], "edge_type": "VIOLATES"}
+{"root": "선택", "count": 10, "members": [{"l": "선택하다", "c": 10}], "edge_type": "DELIBERATES"}
+{"root": "막다", "count": 10, "members": [{"l": "막다", "c": 10}], "edge_type": "RESTRICTS"}
+{"root": "나타나다", "count": 10, "members": [{"l": "나타나다", "c": 10}], "edge_type": "OCCURS"}
+{"root": "사임", "count": 10, "members": [{"l": "사임하다", "c": 10}], "edge_type": "RESIGNS"}
+{"root": "표명", "count": 10, "members": [{"l": "표명하다", "c": 10}], "edge_type": "NOTIFIES"}
+{"root": "수입", "count": 10, "members": [{"l": "수입하다", "c": 10}], "edge_type": "ACQUIRES"}
+{"root": "영수", "count": 10, "members": [{"l": "영수하다", "c": 10}], "edge_type": "PAYS"}
+{"root": "완성", "count": 10, "members": [{"l": "완성되다", "c": 8}, {"l": "완성하다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "착수", "count": 10, "members": [{"l": "착수하다", "c": 6}, {"l": "착수되다", "c": 4}], "edge_type": "COMMENCES"}
+{"root": "개발", "count": 9, "members": [{"l": "개발하다", "c": 9}], "edge_type": "PERFORMS"}
+{"root": "고발", "count": 9, "members": [{"l": "고발하다", "c": 9}], "edge_type": "REQUESTS"}
+{"root": "재임", "count": 9, "members": [{"l": "재임하다", "c": 9}], "edge_type": "WORKS_AT"}
+{"root": "조정", "count": 9, "members": [{"l": "조정하다", "c": 9}], "edge_type": "DELIBERATES"}
+{"root": "미루다", "count": 9, "members": [{"l": "미루다", "c": 9}], "edge_type": "CONTINUES"}
+{"root": "들다", "count": 9, "members": [{"l": "들다", "c": 9}], "edge_type": "HOLDS"}
+{"root": "유도", "count": 9, "members": [{"l": "유도하다", "c": 9}], "edge_type": "PERFORMS"}
+{"root": "광고", "count": 9, "members": [{"l": "광고하다", "c": 9}], "edge_type": "DISCLOSES"}
+{"root": "득점", "count": 9, "members": [{"l": "득점하다", "c": 9}], "edge_type": "PERFORMS"}
+{"root": "취업", "count": 9, "members": [{"l": "취업하다", "c": 9}], "edge_type": "WORKS_AT"}
+{"root": "제보", "count": 9, "members": [{"l": "제보하다", "c": 9}], "edge_type": "NOTIFIES"}
+{"root": "회부", "count": 9, "members": [{"l": "회부하다", "c": 8}, {"l": "회부되다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "발부", "count": 9, "members": [{"l": "발부하다", "c": 8}, {"l": "발부받다", "c": 1}], "edge_type": "ISSUES"}
+{"root": "전달", "count": 9, "members": [{"l": "전달하다", "c": 7}, {"l": "전달받다", "c": 1}, {"l": "전달되다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "보도", "count": 9, "members": [{"l": "보도하다", "c": 7}, {"l": "보도되다", "c": 2}], "edge_type": "DISCLOSES"}
+{"root": "유발", "count": 9, "members": [{"l": "유발하다", "c": 7}, {"l": "유발시키다", "c": 2}], "edge_type": "AFFECTS"}
+{"root": "결제", "count": 9, "members": [{"l": "결제하다", "c": 7}, {"l": "결제되다", "c": 2}], "edge_type": "PAYS"}
+{"root": "공인", "count": 8, "members": [{"l": "공인되다", "c": 8}], "edge_type": "APPROVES"}
+{"root": "겸", "count": 8, "members": [{"l": "겸하다", "c": 8}], "edge_type": "WORKS_AT"}
+{"root": "관장", "count": 8, "members": [{"l": "관장하다", "c": 8}], "edge_type": "MANAGES"}
+{"root": "피", "count": 8, "members": [{"l": "피하다", "c": 8}], "edge_type": "PERFORMS"}
+{"root": "이루다", "count": 8, "members": [{"l": "이루다", "c": 8}], "edge_type": "PERFORMS"}
+{"root": "변조", "count": 8, "members": [{"l": "변조되다", "c": 8}], "edge_type": "VIOLATES"}
+{"root": "협력", "count": 8, "members": [{"l": "협력하다", "c": 8}], "edge_type": "SUPPORTS"}
+{"root": "빌리다", "count": 8, "members": [{"l": "빌리다", "c": 8}], "edge_type": "BORROWS"}
+{"root": "내주다", "count": 8, "members": [{"l": "내주다", "c": 8}], "edge_type": "DISPOSES"}
+{"root": "소개", "count": 8, "members": [{"l": "소개하다", "c": 8}], "edge_type": "NOTIFIES"}
+{"root": "늦다", "count": 8, "members": [{"l": "늦다", "c": 8}], "edge_type": "CONTINUES"}
+{"root": "체납", "count": 8, "members": [{"l": "체납되다", "c": 8}], "edge_type": "VIOLATES"}
+{"root": "폐업", "count": 8, "members": [{"l": "폐업하다", "c": 8}], "edge_type": "DISSOLVES"}
+{"root": "확립", "count": 8, "members": [{"l": "확립하다", "c": 8}], "edge_type": "ESTABLISHES"}
+{"root": "맡다", "count": 8, "members": [{"l": "맡다", "c": 8}], "edge_type": "WORKS_AT"}
+{"root": "최고", "count": 8, "members": [{"l": "최고하다", "c": 8}], "edge_type": "NOTIFIES"}
+{"root": "발언", "count": 8, "members": [{"l": "발언하다", "c": 8}], "edge_type": "NOTIFIES"}
+{"root": "환부", "count": 8, "members": [{"l": "환부하다", "c": 8}], "edge_type": "PAYS"}
+{"root": "주장", "count": 8, "members": [{"l": "주장하다", "c": 7}, {"l": "주장되다", "c": 1}], "edge_type": "REQUESTS"}
+{"root": "이송", "count": 8, "members": [{"l": "이송하다", "c": 7}, {"l": "이송되다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "폐기", "count": 8, "members": [{"l": "폐기하다", "c": 7}, {"l": "폐기되다", "c": 1}], "edge_type": "DISPOSES"}
+{"root": "예측", "count": 8, "members": [{"l": "예측하다", "c": 6}, {"l": "예측되다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "응모", "count": 8, "members": [{"l": "응모하다", "c": 6}, {"l": "응모되다", "c": 2}], "edge_type": "REQUESTS"}
+{"root": "기각", "count": 7, "members": [{"l": "기각하다", "c": 7}], "edge_type": "REJECTS"}
+{"root": "연락", "count": 7, "members": [{"l": "연락하다", "c": 7}], "edge_type": "NOTIFIES"}
+{"root": "기술", "count": 7, "members": [{"l": "기술하다", "c": 7}], "edge_type": "RECORDS"}
+{"root": "봉인", "count": 7, "members": [{"l": "봉인하다", "c": 7}], "edge_type": "RECORDS"}
+{"root": "강구", "count": 7, "members": [{"l": "강구하다", "c": 7}], "edge_type": "PERFORMS"}
+{"root": "취임", "count": 7, "members": [{"l": "취임하다", "c": 7}], "edge_type": "APPOINTS"}
+{"root": "축소", "count": 7, "members": [{"l": "축소하다", "c": 7}], "edge_type": "AMENDS"}
+{"root": "참가", "count": 7, "members": [{"l": "참가하다", "c": 7}], "edge_type": "WORKS_AT"}
+{"root": "알선", "count": 7, "members": [{"l": "알선하다", "c": 7}], "edge_type": "TRANSACTS_WITH"}
+{"root": "승낙", "count": 7, "members": [{"l": "승낙하다", "c": 7}], "edge_type": "APPROVES"}
+{"root": "불응", "count": 7, "members": [{"l": "불응하다", "c": 7}], "edge_type": "REJECTS"}
+{"root": "고정", "count": 7, "members": [{"l": "고정시키다", "c": 7}], "edge_type": "CONTINUES"}
+{"root": "합당", "count": 7, "members": [{"l": "합당하다", "c": 7}], "edge_type": "SATISFIES"}
+{"root": "이관", "count": 7, "members": [{"l": "이관하다", "c": 7}], "edge_type": "SUBMITS"}
+{"root": "배제", "count": 7, "members": [{"l": "배제하다", "c": 6}, {"l": "배제되다", "c": 1}], "edge_type": "EXCLUDES"}
+{"root": "연체", "count": 7, "members": [{"l": "연체되다", "c": 6}, {"l": "연체하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "실현", "count": 7, "members": [{"l": "실현되다", "c": 6}, {"l": "실현하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "예수", "count": 7, "members": [{"l": "예수하다", "c": 6}, {"l": "예수되다", "c": 1}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "평균", "count": 7, "members": [{"l": "평균하다", "c": 6}, {"l": "평균되다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "열거", "count": 7, "members": [{"l": "열거되다", "c": 5}, {"l": "열거하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "채용", "count": 7, "members": [{"l": "채용하다", "c": 4}, {"l": "채용되다", "c": 3}], "edge_type": "APPOINTS"}
+{"root": "배포", "count": 7, "members": [{"l": "배포되다", "c": 4}, {"l": "배포하다", "c": 3}], "edge_type": "DISCLOSES"}
+{"root": "부치다", "count": 6, "members": [{"l": "부치다", "c": 6}], "edge_type": "SUBMITS"}
+{"root": "채택", "count": 6, "members": [{"l": "채택하다", "c": 6}], "edge_type": "APPROVES"}
+{"root": "나타내다", "count": 6, "members": [{"l": "나타내다", "c": 6}], "edge_type": "RECORDS"}
+{"root": "면", "count": 6, "members": [{"l": "면하다", "c": 6}], "edge_type": "EXEMPTS"}
+{"root": "구매", "count": 6, "members": [{"l": "구매하다", "c": 6}], "edge_type": "ACQUIRES"}
+{"root": "벗어나다", "count": 6, "members": [{"l": "벗어나다", "c": 6}], "edge_type": "EXCLUDES"}
+{"root": "걸치다", "count": 6, "members": [{"l": "걸치다", "c": 6}], "edge_type": "CONTINUES"}
+{"root": "수락", "count": 6, "members": [{"l": "수락하다", "c": 6}], "edge_type": "APPROVES"}
+{"root": "허가", "count": 6, "members": [{"l": "허가하다", "c": 6}], "edge_type": "APPROVES"}
+{"root": "통제", "count": 6, "members": [{"l": "통제하다", "c": 6}], "edge_type": "RESTRICTS"}
+{"root": "빠뜨리다", "count": 6, "members": [{"l": "빠뜨리다", "c": 6}], "edge_type": "RECORDS"}
+{"root": "고지", "count": 6, "members": [{"l": "고지하다", "c": 6}], "edge_type": "NOTIFIES"}
+{"root": "보이다", "count": 6, "members": [{"l": "보이다", "c": 6}], "edge_type": "DISCLOSES"}
+{"root": "발송", "count": 6, "members": [{"l": "발송하다", "c": 6}], "edge_type": "SUBMITS"}
+{"root": "조작", "count": 6, "members": [{"l": "조작하다", "c": 6}], "edge_type": "VIOLATES"}
+{"root": "지나치다", "count": 6, "members": [{"l": "지나치다", "c": 6}], "edge_type": "EXCEEDS"}
+{"root": "연속", "count": 6, "members": [{"l": "연속하다", "c": 6}], "edge_type": "CONTINUES"}
+{"root": "호선", "count": 6, "members": [{"l": "호선하다", "c": 6}], "edge_type": "APPOINTS"}
+{"root": "개의", "count": 6, "members": [{"l": "개의하다", "c": 6}], "edge_type": "DELIBERATES"}
+{"root": "건의", "count": 6, "members": [{"l": "건의하다", "c": 6}], "edge_type": "REQUESTS"}
+{"root": "일으키다", "count": 6, "members": [{"l": "일으키다", "c": 6}], "edge_type": "AFFECTS"}
+{"root": "상정", "count": 6, "members": [{"l": "상정하다", "c": 5}, {"l": "상정되다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "촉진", "count": 6, "members": [{"l": "촉진하다", "c": 5}, {"l": "촉진시키다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "교체", "count": 6, "members": [{"l": "교체하다", "c": 5}, {"l": "교체되다", "c": 1}], "edge_type": "APPOINTS"}
+{"root": "단축", "count": 6, "members": [{"l": "단축하다", "c": 5}, {"l": "단축되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "처벌", "count": 6, "members": [{"l": "처벌하다", "c": 4}, {"l": "처벌되다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "표현", "count": 6, "members": [{"l": "표현하다", "c": 3}, {"l": "표현되다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "녹취", "count": 6, "members": [{"l": "녹취하다", "c": 3}, {"l": "녹취되다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "그치다", "count": 5, "members": [{"l": "그치다", "c": 5}], "edge_type": "TERMINATES"}
+{"root": "구", "count": 5, "members": [{"l": "구하다", "c": 5}], "edge_type": "REQUESTS"}
+{"root": "답변", "count": 5, "members": [{"l": "답변하다", "c": 5}], "edge_type": "NOTIFIES"}
+{"root": "거주", "count": 5, "members": [{"l": "거주하다", "c": 5}], "edge_type": "WORKS_AT"}
+{"root": "유의", "count": 5, "members": [{"l": "유의하다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "인식", "count": 5, "members": [{"l": "인식하다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "병과", "count": 5, "members": [{"l": "병과하다", "c": 5}], "edge_type": "SANCTIONS"}
+{"root": "소지", "count": 5, "members": [{"l": "소지하다", "c": 5}], "edge_type": "HOLDS"}
+{"root": "규명", "count": 5, "members": [{"l": "규명하다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "끝내다", "count": 5, "members": [{"l": "끝내다", "c": 5}], "edge_type": "TERMINATES"}
+{"root": "대위", "count": 5, "members": [{"l": "대위하다", "c": 5}], "edge_type": "ACQUIRES"}
+{"root": "다", "count": 5, "members": [{"l": "다하다", "c": 5}], "edge_type": "PERFORMS"}
+{"root": "불복", "count": 5, "members": [{"l": "불복하다", "c": 5}], "edge_type": "REJECTS"}
+{"root": "원", "count": 5, "members": [{"l": "원하다", "c": 5}], "edge_type": "REQUESTS"}
+{"root": "환산", "count": 5, "members": [{"l": "환산하다", "c": 5}], "edge_type": "CALCULATES"}
+{"root": "담합", "count": 5, "members": [{"l": "담합하다", "c": 5}], "edge_type": "VIOLATES"}
+{"root": "전송", "count": 5, "members": [{"l": "전송하다", "c": 5}], "edge_type": "SUBMITS"}
+{"root": "가장", "count": 5, "members": [{"l": "가장하다", "c": 5}], "edge_type": "VIOLATES"}
+{"root": "규제", "count": 5, "members": [{"l": "규제하다", "c": 5}], "edge_type": "RESTRICTS"}
+{"root": "퇴사", "count": 5, "members": [{"l": "퇴사하다", "c": 5}], "edge_type": "RESIGNS"}
+{"root": "밟다", "count": 5, "members": [{"l": "밟다", "c": 5}], "edge_type": "PERFORMS"}
+{"root": "인계", "count": 5, "members": [{"l": "인계하다", "c": 5}], "edge_type": "SUBMITS"}
+{"root": "서다", "count": 5, "members": [{"l": "서다", "c": 5}], "edge_type": "OCCURS"}
+{"root": "녹음", "count": 5, "members": [{"l": "녹음하다", "c": 5}], "edge_type": "RECORDS"}
+{"root": "참고", "count": 5, "members": [{"l": "참고하다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "낮추다", "count": 5, "members": [{"l": "낮추다", "c": 5}], "edge_type": "AMENDS"}
+{"root": "수취", "count": 5, "members": [{"l": "수취하다", "c": 5}], "edge_type": "PAYS"}
+{"root": "전입", "count": 5, "members": [{"l": "전입하다", "c": 5}], "edge_type": "WORKS_AT"}
+{"root": "분담", "count": 5, "members": [{"l": "분담하다", "c": 5}], "edge_type": "PAYS"}
+{"root": "집합", "count": 5, "members": [{"l": "집합하다", "c": 5}], "edge_type": "CONVENES"}
+{"root": "신뢰", "count": 5, "members": [{"l": "신뢰하다", "c": 5}], "edge_type": "REVIEWS"}
+{"root": "소각", "count": 5, "members": [{"l": "소각하다", "c": 5}], "edge_type": "DISPOSES"}
+{"root": "인출", "count": 5, "members": [{"l": "인출하다", "c": 5}], "edge_type": "PAYS"}
+{"root": "융자", "count": 5, "members": [{"l": "융자하다", "c": 5}], "edge_type": "LENDS"}
+{"root": "증액", "count": 5, "members": [{"l": "증액하다", "c": 4}, {"l": "증액되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "도출", "count": 5, "members": [{"l": "도출하다", "c": 4}, {"l": "도출되다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "위배", "count": 5, "members": [{"l": "위배되다", "c": 3}, {"l": "위배하다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "존중", "count": 5, "members": [{"l": "존중하다", "c": 3}, {"l": "존중되다", "c": 2}], "edge_type": "SUPPORTS"}
+{"root": "증여", "count": 5, "members": [{"l": "증여받다", "c": 3}, {"l": "증여하다", "c": 2}], "edge_type": "PAYS"}
+{"root": "해촉", "count": 5, "members": [{"l": "해촉되다", "c": 3}, {"l": "해촉하다", "c": 2}], "edge_type": "DISMISSES"}
+{"root": "과장", "count": 5, "members": [{"l": "과장되다", "c": 3}, {"l": "과장하다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "인상", "count": 5, "members": [{"l": "인상하다", "c": 3}, {"l": "인상되다", "c": 2}], "edge_type": "AMENDS"}
+{"root": "지휘", "count": 4, "members": [{"l": "지휘하다", "c": 4}], "edge_type": "MANAGES"}
+{"root": "제청", "count": 4, "members": [{"l": "제청하다", "c": 4}], "edge_type": "REQUESTS"}
+{"root": "감찰", "count": 4, "members": [{"l": "감찰하다", "c": 4}], "edge_type": "SUPERVISES"}
+{"root": "보조", "count": 4, "members": [{"l": "보조하다", "c": 4}], "edge_type": "SUPPORTS"}
+{"root": "유보", "count": 4, "members": [{"l": "유보하다", "c": 4}], "edge_type": "CONTINUES"}
+{"root": "수정", "count": 4, "members": [{"l": "수정하다", "c": 4}], "edge_type": "AMENDS"}
+{"root": "청취", "count": 4, "members": [{"l": "청취하다", "c": 4}], "edge_type": "NOTIFIES"}
+{"root": "암시", "count": 4, "members": [{"l": "암시하다", "c": 4}], "edge_type": "NOTIFIES"}
+{"root": "주관", "count": 4, "members": [{"l": "주관하다", "c": 4}], "edge_type": "MANAGES"}
+{"root": "수익", "count": 4, "members": [{"l": "수익하다", "c": 4}], "edge_type": "HOLDS"}
+{"root": "대비", "count": 4, "members": [{"l": "대비하다", "c": 4}], "edge_type": "REVIEWS"}
+{"root": "강조", "count": 4, "members": [{"l": "강조하다", "c": 4}], "edge_type": "NOTIFIES"}
+{"root": "인지", "count": 4, "members": [{"l": "인지하다", "c": 4}], "edge_type": "REVIEWS"}
+{"root": "누리다", "count": 4, "members": [{"l": "누리다", "c": 4}], "edge_type": "HOLDS"}
+{"root": "기명날인", "count": 4, "members": [{"l": "기명날인하다", "c": 4}], "edge_type": "RECORDS"}
+{"root": "면책", "count": 4, "members": [{"l": "면책되다", "c": 4}], "edge_type": "EXEMPTS"}
+{"root": "은닉", "count": 4, "members": [{"l": "은닉하다", "c": 4}], "edge_type": "VIOLATES"}
+{"root": "일괄", "count": 4, "members": [{"l": "일괄하다", "c": 4}], "edge_type": "PERFORMS"}
+{"root": "합치다", "count": 4, "members": [{"l": "합치다", "c": 4}], "edge_type": "CALCULATES"}
+{"root": "되돌리다", "count": 4, "members": [{"l": "되돌리다", "c": 4}], "edge_type": "PAYS"}
+{"root": "숨기다", "count": 4, "members": [{"l": "숨기다", "c": 4}], "edge_type": "VIOLATES"}
+{"root": "점유", "count": 4, "members": [{"l": "점유하다", "c": 4}], "edge_type": "HOLDS"}
+{"root": "결원", "count": 4, "members": [{"l": "결원되다", "c": 4}], "edge_type": "OCCURS"}
+{"root": "보류", "count": 4, "members": [{"l": "보류하다", "c": 4}], "edge_type": "CONTINUES"}
+{"root": "회복", "count": 4, "members": [{"l": "회복하다", "c": 4}], "edge_type": "OCCURS"}
+{"root": "촉탁", "count": 4, "members": [{"l": "촉탁하다", "c": 4}], "edge_type": "REQUESTS"}
+{"root": "포기", "count": 4, "members": [{"l": "포기하다", "c": 4}], "edge_type": "REJECTS"}
+{"root": "급부", "count": 4, "members": [{"l": "급부하다", "c": 4}], "edge_type": "PAYS"}
+{"root": "청산", "count": 4, "members": [{"l": "청산하다", "c": 4}], "edge_type": "DISSOLVES"}
+{"root": "적시", "count": 4, "members": [{"l": "적시하다", "c": 4}], "edge_type": "RECORDS"}
+{"root": "유통", "count": 4, "members": [{"l": "유통되다", "c": 4}], "edge_type": "TRANSACTS_WITH"}
+{"root": "유인", "count": 4, "members": [{"l": "유인하다", "c": 4}], "edge_type": "AFFECTS"}
+{"root": "창업", "count": 4, "members": [{"l": "창업하다", "c": 4}], "edge_type": "ESTABLISHES"}
+{"root": "남용", "count": 4, "members": [{"l": "남용하다", "c": 4}], "edge_type": "VIOLATES"}
+{"root": "발", "count": 4, "members": [{"l": "발하다", "c": 4}], "edge_type": "SANCTIONS"}
+{"root": "열석", "count": 4, "members": [{"l": "열석하다", "c": 4}], "edge_type": "CONVENES"}
+{"root": "입력", "count": 4, "members": [{"l": "입력하다", "c": 3}, {"l": "입력되다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "기대", "count": 4, "members": [{"l": "기대하다", "c": 3}, {"l": "기대되다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "일임", "count": 4, "members": [{"l": "일임받다", "c": 3}, {"l": "일임하다", "c": 1}], "edge_type": "DELEGATES_TO"}
+{"root": "요약", "count": 4, "members": [{"l": "요약하다", "c": 3}, {"l": "요약되다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "보", "count": 3, "members": [{"l": "보하다", "c": 3}], "edge_type": "APPOINTS"}
+{"root": "경유", "count": 3, "members": [{"l": "경유하다", "c": 3}], "edge_type": "SUBMITS"}
+{"root": "취하", "count": 3, "members": [{"l": "취하하다", "c": 3}], "edge_type": "REJECTS"}
+{"root": "지체", "count": 3, "members": [{"l": "지체하다", "c": 3}], "edge_type": "CONTINUES"}
+{"root": "대부", "count": 3, "members": [{"l": "대부하다", "c": 3}], "edge_type": "LENDS"}
+{"root": "손상", "count": 3, "members": [{"l": "손상하다", "c": 3}], "edge_type": "VIOLATES"}
+{"root": "계획", "count": 3, "members": [{"l": "계획하다", "c": 3}], "edge_type": "PERFORMS"}
+{"root": "획득", "count": 3, "members": [{"l": "획득하다", "c": 3}], "edge_type": "ACQUIRES"}
+{"root": "읽다", "count": 3, "members": [{"l": "읽다", "c": 3}], "edge_type": "REVIEWS"}
+{"root": "향상", "count": 3, "members": [{"l": "향상시키다", "c": 3}], "edge_type": "AMENDS"}
+{"root": "보급", "count": 3, "members": [{"l": "보급하다", "c": 3}], "edge_type": "SUPPORTS"}
+{"root": "증언", "count": 3, "members": [{"l": "증언하다", "c": 3}], "edge_type": "NOTIFIES"}
+{"root": "체불", "count": 3, "members": [{"l": "체불되다", "c": 3}], "edge_type": "VIOLATES"}
+{"root": "기다리다", "count": 3, "members": [{"l": "기다리다", "c": 3}], "edge_type": "CONTINUES"}
+{"root": "내리다", "count": 3, "members": [{"l": "내리다", "c": 3}], "edge_type": "SANCTIONS"}
+{"root": "쓰이다", "count": 3, "members": [{"l": "쓰이다", "c": 3}], "edge_type": "USES"}
+{"root": "돌려주다", "count": 3, "members": [{"l": "돌려주다", "c": 3}], "edge_type": "PAYS"}
+{"root": "입금", "count": 3, "members": [{"l": "입금하다", "c": 3}], "edge_type": "PAYS"}
+{"root": "수납", "count": 3, "members": [{"l": "수납하다", "c": 3}], "edge_type": "PAYS"}
+{"root": "조장", "count": 3, "members": [{"l": "조장하다", "c": 3}], "edge_type": "SUPPORTS"}
+{"root": "부가", "count": 3, "members": [{"l": "부가되다", "c": 3}], "edge_type": "APPLIES_LAW"}
+{"root": "복사", "count": 3, "members": [{"l": "복사하다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "덧붙이다", "count": 3, "members": [{"l": "덧붙이다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "입사", "count": 3, "members": [{"l": "입사하다", "c": 3}], "edge_type": "WORKS_AT"}
+{"root": "정산", "count": 3, "members": [{"l": "정산하다", "c": 3}], "edge_type": "PAYS"}
+{"root": "개입", "count": 3, "members": [{"l": "개입하다", "c": 3}], "edge_type": "PERFORMS"}
+{"root": "가", "count": 3, "members": [{"l": "가하다", "c": 3}], "edge_type": "SANCTIONS"}
+{"root": "배치", "count": 3, "members": [{"l": "배치되다", "c": 3}], "edge_type": "WORKS_AT"}
+{"root": "탈락", "count": 3, "members": [{"l": "탈락되다", "c": 3}], "edge_type": "REJECTS"}
+{"root": "조력", "count": 3, "members": [{"l": "조력하다", "c": 3}], "edge_type": "SUPPORTS"}
+{"root": "포상", "count": 3, "members": [{"l": "포상하다", "c": 3}], "edge_type": "SUPPORTS"}
+{"root": "통할", "count": 3, "members": [{"l": "통할하다", "c": 3}], "edge_type": "MANAGES"}
+{"root": "주재", "count": 3, "members": [{"l": "주재하다", "c": 3}], "edge_type": "WORKS_AT"}
+{"root": "지도", "count": 3, "members": [{"l": "지도하다", "c": 3}], "edge_type": "MANAGES"}
+{"root": "통용", "count": 3, "members": [{"l": "통용되다", "c": 3}], "edge_type": "USES"}
+{"root": "확대", "count": 3, "members": [{"l": "확대하다", "c": 3}], "edge_type": "AMENDS"}
+{"root": "우려", "count": 3, "members": [{"l": "우려되다", "c": 3}], "edge_type": "REVIEWS"}
+{"root": "전보", "count": 3, "members": [{"l": "전보하다", "c": 3}], "edge_type": "APPOINTS"}
+{"root": "줄이다", "count": 3, "members": [{"l": "줄이다", "c": 3}], "edge_type": "AMENDS"}
+{"root": "발췌", "count": 3, "members": [{"l": "발췌하다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "멸실", "count": 3, "members": [{"l": "멸실되다", "c": 3}], "edge_type": "OCCURS"}
+{"root": "감시", "count": 3, "members": [{"l": "감시하다", "c": 3}], "edge_type": "SUPERVISES"}
+{"root": "실행", "count": 3, "members": [{"l": "실행하다", "c": 3}], "edge_type": "PERFORMS"}
+{"root": "입수", "count": 3, "members": [{"l": "입수하다", "c": 3}], "edge_type": "ACQUIRES"}
+{"root": "교섭", "count": 3, "members": [{"l": "교섭하다", "c": 3}], "edge_type": "TRANSACTS_WITH"}
+{"root": "짜다", "count": 3, "members": [{"l": "짜다", "c": 3}], "edge_type": "ESTABLISHES"}
+{"root": "꾸미다", "count": 3, "members": [{"l": "꾸미다", "c": 3}], "edge_type": "VIOLATES"}
+{"root": "안정", "count": 3, "members": [{"l": "안정시키다", "c": 3}], "edge_type": "PROTECTS"}
+{"root": "공매도", "count": 3, "members": [{"l": "공매도하다", "c": 3}], "edge_type": "TRANSACTS_WITH"}
+{"root": "생산", "count": 3, "members": [{"l": "생산하다", "c": 3}], "edge_type": "PERFORMS"}
+{"root": "가중", "count": 3, "members": [{"l": "가중하다", "c": 3}], "edge_type": "SANCTIONS"}
+{"root": "표기", "count": 3, "members": [{"l": "표기하다", "c": 3}], "edge_type": "RECORDS"}
+{"root": "염려", "count": 3, "members": [{"l": "염려되다", "c": 3}], "edge_type": "REVIEWS"}
+{"root": "재개", "count": 3, "members": [{"l": "재개하다", "c": 3}], "edge_type": "COMMENCES"}
+{"root": "기산", "count": 3, "members": [{"l": "기산하다", "c": 3}], "edge_type": "CALCULATES"}
+{"root": "징구", "count": 3, "members": [{"l": "징구하다", "c": 3}], "edge_type": "REQUESTS"}
+{"root": "다투다", "count": 3, "members": [{"l": "다투다", "c": 3}], "edge_type": "REJECTS"}
+{"root": "제안", "count": 3, "members": [{"l": "제안하다", "c": 2}, {"l": "제안받다", "c": 1}], "edge_type": "REQUESTS"}
+{"root": "해결", "count": 3, "members": [{"l": "해결하다", "c": 2}, {"l": "해결되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "준비", "count": 3, "members": [{"l": "준비하다", "c": 2}, {"l": "준비되다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "교육", "count": 3, "members": [{"l": "교육하다", "c": 2}, {"l": "교육되다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "증진", "count": 3, "members": [{"l": "증진하다", "c": 2}, {"l": "증진시키다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "유출", "count": 3, "members": [{"l": "유출되다", "c": 2}, {"l": "유출하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "발표", "count": 3, "members": [{"l": "발표되다", "c": 2}, {"l": "발표하다", "c": 1}], "edge_type": "DISCLOSES"}
+{"root": "저장", "count": 3, "members": [{"l": "저장되다", "c": 2}, {"l": "저장하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "분장", "count": 3, "members": [{"l": "분장하다", "c": 2}, {"l": "분장되다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "인가", "count": 3, "members": [{"l": "인가하다", "c": 2}, {"l": "인가되다", "c": 1}], "edge_type": "APPROVES"}
+{"root": "정착", "count": 3, "members": [{"l": "정착되다", "c": 2}, {"l": "정착하다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "송금", "count": 3, "members": [{"l": "송금하다", "c": 2}, {"l": "송금받다", "c": 1}], "edge_type": "PAYS"}
+{"root": "연구", "count": 2, "members": [{"l": "연구하다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "판정", "count": 2, "members": [{"l": "판정하다", "c": 2}], "edge_type": "DELIBERATES"}
+{"root": "변상", "count": 2, "members": [{"l": "변상하다", "c": 2}], "edge_type": "PAYS"}
+{"root": "심리", "count": 2, "members": [{"l": "심리하다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "잃다", "count": 2, "members": [{"l": "잃다", "c": 2}], "edge_type": "LOSES"}
+{"root": "입원", "count": 2, "members": [{"l": "입원하다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "접근", "count": 2, "members": [{"l": "접근하다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "구비", "count": 2, "members": [{"l": "구비하다", "c": 2}], "edge_type": "SATISFIES"}
+{"root": "선발", "count": 2, "members": [{"l": "선발하다", "c": 2}], "edge_type": "APPOINTS"}
+{"root": "번갈다", "count": 2, "members": [{"l": "번갈다", "c": 2}], "edge_type": "CONTINUES"}
+{"root": "찍다", "count": 2, "members": [{"l": "찍다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "처신", "count": 2, "members": [{"l": "처신하다", "c": 2}], "edge_type": "PERFORMS"}
+{"root": "나오다", "count": 2, "members": [{"l": "나오다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "자진", "count": 2, "members": [{"l": "자진하다", "c": 2}], "edge_type": "PERFORMS"}
+{"root": "공지", "count": 2, "members": [{"l": "공지하다", "c": 2}], "edge_type": "DISCLOSES"}
+{"root": "측정", "count": 2, "members": [{"l": "측정하다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "복권", "count": 2, "members": [{"l": "복권되다", "c": 2}], "edge_type": "EXEMPTS"}
+{"root": "제휴", "count": 2, "members": [{"l": "제휴되다", "c": 2}], "edge_type": "TRANSACTS_WITH"}
+{"root": "위조", "count": 2, "members": [{"l": "위조되다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "꾀", "count": 2, "members": [{"l": "꾀하다", "c": 2}], "edge_type": "SUPPORTS"}
+{"root": "위협", "count": 2, "members": [{"l": "위협하다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "달", "count": 2, "members": [{"l": "달하다", "c": 2}], "edge_type": "SATISFIES"}
+{"root": "상각", "count": 2, "members": [{"l": "상각하다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "휴업", "count": 2, "members": [{"l": "휴업하다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "인하", "count": 2, "members": [{"l": "인하하다", "c": 2}], "edge_type": "AMENDS"}
+{"root": "포괄", "count": 2, "members": [{"l": "포괄하다", "c": 2}], "edge_type": "APPLIES_LAW"}
+{"root": "삭감", "count": 2, "members": [{"l": "삭감하다", "c": 2}], "edge_type": "AMENDS"}
+{"root": "방조", "count": 2, "members": [{"l": "방조하다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "과", "count": 2, "members": [{"l": "과하다", "c": 2}], "edge_type": "SANCTIONS"}
+{"root": "병행", "count": 2, "members": [{"l": "병행하다", "c": 2}], "edge_type": "CONTINUES"}
+{"root": "합작", "count": 2, "members": [{"l": "합작하다", "c": 2}], "edge_type": "TRANSACTS_WITH"}
+{"root": "규율", "count": 2, "members": [{"l": "규율하다", "c": 2}], "edge_type": "PRESCRIBES"}
+{"root": "가산", "count": 2, "members": [{"l": "가산하다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "충원", "count": 2, "members": [{"l": "충원하다", "c": 2}], "edge_type": "APPOINTS"}
+{"root": "식별", "count": 2, "members": [{"l": "식별하다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "가공", "count": 2, "members": [{"l": "가공하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "맺다", "count": 2, "members": [{"l": "맺다", "c": 2}], "edge_type": "TRANSACTS_WITH"}
+{"root": "촬영", "count": 2, "members": [{"l": "촬영하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "녹화", "count": 2, "members": [{"l": "녹화하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "만들다", "count": 2, "members": [{"l": "만들다", "c": 2}], "edge_type": "ESTABLISHES"}
+{"root": "헌신", "count": 2, "members": [{"l": "헌신하다", "c": 2}], "edge_type": "SUPPORTS"}
+{"root": "궐위", "count": 2, "members": [{"l": "궐위되다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "반려", "count": 2, "members": [{"l": "반려하다", "c": 2}], "edge_type": "REJECTS"}
+{"root": "종속", "count": 2, "members": [{"l": "종속되다", "c": 2}], "edge_type": "MANAGES"}
+{"root": "부대", "count": 2, "members": [{"l": "부대되다", "c": 2}], "edge_type": "PERFORMS"}
+{"root": "상주", "count": 2, "members": [{"l": "상주하다", "c": 2}], "edge_type": "WORKS_AT"}
+{"root": "잠식", "count": 2, "members": [{"l": "잠식되다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "증자", "count": 2, "members": [{"l": "증자하다", "c": 2}], "edge_type": "INVESTS"}
+{"root": "정리", "count": 2, "members": [{"l": "정리하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "원상회복", "count": 2, "members": [{"l": "원상회복되다", "c": 2}], "edge_type": "PAYS"}
+{"root": "공모", "count": 2, "members": [{"l": "공모하다", "c": 2}], "edge_type": "ISSUES"}
+{"root": "상계", "count": 2, "members": [{"l": "상계하다", "c": 2}], "edge_type": "PAYS"}
+{"root": "통일", "count": 2, "members": [{"l": "통일하다", "c": 2}], "edge_type": "APPLIES_LAW"}
+{"root": "예금", "count": 2, "members": [{"l": "예금하다", "c": 2}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "결산", "count": 2, "members": [{"l": "결산하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "합계", "count": 2, "members": [{"l": "합계하다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "담다", "count": 2, "members": [{"l": "담다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "감리", "count": 2, "members": [{"l": "감리하다", "c": 2}], "edge_type": "SUPERVISES"}
+{"root": "접속", "count": 2, "members": [{"l": "접속하다", "c": 2}], "edge_type": "USES"}
+{"root": "명기", "count": 2, "members": [{"l": "명기하다", "c": 2}], "edge_type": "RECORDS"}
+{"root": "유포", "count": 2, "members": [{"l": "유포하다", "c": 2}], "edge_type": "DISCLOSES"}
+{"root": "흡수", "count": 2, "members": [{"l": "흡수하다", "c": 2}], "edge_type": "MERGES_WITH"}
+{"root": "명의개서", "count": 2, "members": [{"l": "명의개서되다", "c": 2}], "edge_type": "REGISTERS"}
+{"root": "대우", "count": 2, "members": [{"l": "대우하다", "c": 2}], "edge_type": "SUPPORTS"}
+{"root": "더", "count": 2, "members": [{"l": "더하다", "c": 2}], "edge_type": "CALCULATES"}
+{"root": "권장", "count": 2, "members": [{"l": "권장하다", "c": 2}], "edge_type": "REQUESTS"}
+{"root": "떨어지다", "count": 2, "members": [{"l": "떨어지다", "c": 2}], "edge_type": "AMENDS"}
+{"root": "순환", "count": 2, "members": [{"l": "순환하다", "c": 2}], "edge_type": "CONTINUES"}
+{"root": "노출", "count": 2, "members": [{"l": "노출되다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "드러나다", "count": 2, "members": [{"l": "드러나다", "c": 2}], "edge_type": "OCCURS"}
+{"root": "방송", "count": 2, "members": [{"l": "방송되다", "c": 2}], "edge_type": "DISCLOSES"}
+{"root": "수여", "count": 2, "members": [{"l": "수여하다", "c": 2}], "edge_type": "GRANTS"}
+{"root": "문의", "count": 2, "members": [{"l": "문의하다", "c": 2}], "edge_type": "REQUESTS"}
+{"root": "감금", "count": 2, "members": [{"l": "감금하다", "c": 2}], "edge_type": "VIOLATES"}
+{"root": "실사", "count": 2, "members": [{"l": "실사하다", "c": 2}], "edge_type": "REVIEWS"}
+{"root": "책정", "count": 2, "members": [{"l": "책정하다", "c": 2}], "edge_type": "DELIBERATES"}
+{"root": "발의", "count": 2, "members": [{"l": "발의하다", "c": 2}], "edge_type": "REQUESTS"}
+{"root": "여신", "count": 2, "members": [{"l": "여신하다", "c": 2}], "edge_type": "LENDS"}
+{"root": "송달", "count": 2, "members": [{"l": "송달되다", "c": 1}, {"l": "송달하다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "야기", "count": 2, "members": [{"l": "야기되다", "c": 1}, {"l": "야기하다", "c": 1}], "edge_type": "AFFECTS"}
+{"root": "구제", "count": 2, "members": [{"l": "구제받다", "c": 1}, {"l": "구제하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "조직", "count": 2, "members": [{"l": "조직하다", "c": 1}, {"l": "조직되다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "예시", "count": 2, "members": [{"l": "예시하다", "c": 1}, {"l": "예시되다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "수용", "count": 2, "members": [{"l": "수용되다", "c": 1}, {"l": "수용하다", "c": 1}], "edge_type": "APPROVES"}
+{"root": "송수신", "count": 2, "members": [{"l": "송수신하다", "c": 1}, {"l": "송수신되다", "c": 1}], "edge_type": "USES"}
+{"root": "강화", "count": 2, "members": [{"l": "강화되다", "c": 1}, {"l": "강화하다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "생성", "count": 2, "members": [{"l": "생성되다", "c": 1}, {"l": "생성시키다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "이체", "count": 2, "members": [{"l": "이체되다", "c": 1}, {"l": "이체하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "압류", "count": 2, "members": [{"l": "압류하다", "c": 1}, {"l": "압류되다", "c": 1}], "edge_type": "SANCTIONS"}
+{"root": "집중", "count": 2, "members": [{"l": "집중되다", "c": 1}, {"l": "집중하다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "면직", "count": 1, "members": [{"l": "면직되다", "c": 1}], "edge_type": "DISMISSES"}
+{"root": "보충", "count": 1, "members": [{"l": "보충하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "이익", "count": 1, "members": [{"l": "이익하다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "희망", "count": 1, "members": [{"l": "희망하다", "c": 1}], "edge_type": "REQUESTS"}
+{"root": "만나다", "count": 1, "members": [{"l": "만나다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "끊다", "count": 1, "members": [{"l": "끊다", "c": 1}], "edge_type": "TERMINATES"}
+{"root": "두절", "count": 1, "members": [{"l": "두절되다", "c": 1}], "edge_type": "TERMINATES"}
+{"root": "선포", "count": 1, "members": [{"l": "선포되다", "c": 1}], "edge_type": "DISCLOSES"}
+{"root": "혼인", "count": 1, "members": [{"l": "혼인하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "제약", "count": 1, "members": [{"l": "제약하다", "c": 1}], "edge_type": "RESTRICTS"}
+{"root": "간여", "count": 1, "members": [{"l": "간여하다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "연마", "count": 1, "members": [{"l": "연마하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "견지", "count": 1, "members": [{"l": "견지하다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "탐색", "count": 1, "members": [{"l": "탐색하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "숙지", "count": 1, "members": [{"l": "숙지하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "설계", "count": 1, "members": [{"l": "설계되다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "추출", "count": 1, "members": [{"l": "추출하다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "투입", "count": 1, "members": [{"l": "투입되다", "c": 1}], "edge_type": "PAYS"}
+{"root": "뒷받침", "count": 1, "members": [{"l": "뒷받침하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "숙련", "count": 1, "members": [{"l": "숙련되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "지지", "count": 1, "members": [{"l": "지지하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "편향", "count": 1, "members": [{"l": "편향되다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "주선", "count": 1, "members": [{"l": "주선하다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "근속", "count": 1, "members": [{"l": "근속하다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "거두다", "count": 1, "members": [{"l": "거두다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "지적", "count": 1, "members": [{"l": "지적되다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "도과", "count": 1, "members": [{"l": "도과하다", "c": 1}], "edge_type": "EXPIRES"}
+{"root": "맞추다", "count": 1, "members": [{"l": "맞추다", "c": 1}], "edge_type": "SATISFIES"}
+{"root": "들려주다", "count": 1, "members": [{"l": "들려주다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "알아내다", "count": 1, "members": [{"l": "알아내다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "임차", "count": 1, "members": [{"l": "임차하다", "c": 1}], "edge_type": "ACQUIRES"}
+{"root": "편중", "count": 1, "members": [{"l": "편중되다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "지우다", "count": 1, "members": [{"l": "지우다", "c": 1}], "edge_type": "DELETES_PROVISION"}
+{"root": "소비", "count": 1, "members": [{"l": "소비하다", "c": 1}], "edge_type": "USES"}
+{"root": "활동", "count": 1, "members": [{"l": "활동하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "습득", "count": 1, "members": [{"l": "습득하다", "c": 1}], "edge_type": "ACQUIRES"}
+{"root": "오해", "count": 1, "members": [{"l": "오해하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "족", "count": 1, "members": [{"l": "족하다", "c": 1}], "edge_type": "SATISFIES"}
+{"root": "출입", "count": 1, "members": [{"l": "출입하다", "c": 1}], "edge_type": "USES"}
+{"root": "개이다", "count": 1, "members": [{"l": "개이다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "손", "count": 1, "members": [{"l": "손하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "경정", "count": 1, "members": [{"l": "경정하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "결합", "count": 1, "members": [{"l": "결합하다", "c": 1}], "edge_type": "MERGES_WITH"}
+{"root": "승선", "count": 1, "members": [{"l": "승선하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "이주", "count": 1, "members": [{"l": "이주하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "약화", "count": 1, "members": [{"l": "약화되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "휴대", "count": 1, "members": [{"l": "휴대하다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "참작", "count": 1, "members": [{"l": "참작하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "파기", "count": 1, "members": [{"l": "파기하다", "c": 1}], "edge_type": "SANCTIONS"}
+{"root": "제거", "count": 1, "members": [{"l": "제거하다", "c": 1}], "edge_type": "DELETES_PROVISION"}
+{"root": "예비", "count": 1, "members": [{"l": "예비하다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "음모", "count": 1, "members": [{"l": "음모하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "공조", "count": 1, "members": [{"l": "공조하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "왕래", "count": 1, "members": [{"l": "왕래하다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "출항", "count": 1, "members": [{"l": "출항하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "갹출", "count": 1, "members": [{"l": "갹출하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "용인", "count": 1, "members": [{"l": "용인하다", "c": 1}], "edge_type": "APPROVES"}
+{"root": "떠넘기다", "count": 1, "members": [{"l": "떠넘기다", "c": 1}], "edge_type": "PAYS"}
+{"root": "도입", "count": 1, "members": [{"l": "도입되다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "전념", "count": 1, "members": [{"l": "전념하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "역산", "count": 1, "members": [{"l": "역산하다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "사직", "count": 1, "members": [{"l": "사직하다", "c": 1}], "edge_type": "RESIGNS"}
+{"root": "대면", "count": 1, "members": [{"l": "대면하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "묵인", "count": 1, "members": [{"l": "묵인하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "고취", "count": 1, "members": [{"l": "고취하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "집무", "count": 1, "members": [{"l": "집무하다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "부의", "count": 1, "members": [{"l": "부의하다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "제척", "count": 1, "members": [{"l": "제척되다", "c": 1}], "edge_type": "REJECTS"}
+{"root": "송치", "count": 1, "members": [{"l": "송치하다", "c": 1}], "edge_type": "SUBMITS"}
+{"root": "방치", "count": 1, "members": [{"l": "방치하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "자문", "count": 1, "members": [{"l": "자문하다", "c": 1}], "edge_type": "REQUESTS"}
+{"root": "복귀", "count": 1, "members": [{"l": "복귀하다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "연명", "count": 1, "members": [{"l": "연명하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "도피", "count": 1, "members": [{"l": "도피시키다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "발전", "count": 1, "members": [{"l": "발전시키다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "배서", "count": 1, "members": [{"l": "배서하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "줄어들다", "count": 1, "members": [{"l": "줄어들다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "출장", "count": 1, "members": [{"l": "출장하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "향유", "count": 1, "members": [{"l": "향유하다", "c": 1}], "edge_type": "HOLDS"}
+{"root": "저지", "count": 1, "members": [{"l": "저지하다", "c": 1}], "edge_type": "PROTECTS"}
+{"root": "상속", "count": 1, "members": [{"l": "상속되다", "c": 1}], "edge_type": "ACQUIRES"}
+{"root": "급여", "count": 1, "members": [{"l": "급여하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "수탁자", "count": 1, "members": [{"l": "수탁자하다", "c": 1}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "예견", "count": 1, "members": [{"l": "예견하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "책임지다", "count": 1, "members": [{"l": "책임지다", "c": 1}], "edge_type": "PAYS"}
+{"root": "은폐", "count": 1, "members": [{"l": "은폐하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "수교", "count": 1, "members": [{"l": "수교하다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "육성", "count": 1, "members": [{"l": "육성하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "제조", "count": 1, "members": [{"l": "제조하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "맡기다", "count": 1, "members": [{"l": "맡기다", "c": 1}], "edge_type": "DELEGATES_TO"}
+{"root": "고치다", "count": 1, "members": [{"l": "고치다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "찬성", "count": 1, "members": [{"l": "찬성하다", "c": 1}], "edge_type": "APPROVES"}
+{"root": "승소", "count": 1, "members": [{"l": "승소하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "왜곡", "count": 1, "members": [{"l": "왜곡하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "소추", "count": 1, "members": [{"l": "소추하다", "c": 1}], "edge_type": "SANCTIONS"}
+{"root": "분양", "count": 1, "members": [{"l": "분양하다", "c": 1}], "edge_type": "DISPOSES"}
+{"root": "혼합", "count": 1, "members": [{"l": "혼합하다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "심문", "count": 1, "members": [{"l": "심문하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "수색", "count": 1, "members": [{"l": "수색하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "자수", "count": 1, "members": [{"l": "자수하다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "앞당기다", "count": 1, "members": [{"l": "앞당기다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "창설", "count": 1, "members": [{"l": "창설되다", "c": 1}], "edge_type": "ESTABLISHES"}
+{"root": "인쇄", "count": 1, "members": [{"l": "인쇄되다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "유치", "count": 1, "members": [{"l": "유치하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "출금", "count": 1, "members": [{"l": "출금하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "기울이다", "count": 1, "members": [{"l": "기울이다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "감추다", "count": 1, "members": [{"l": "감추다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "달라지다", "count": 1, "members": [{"l": "달라지다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "타다", "count": 1, "members": [{"l": "타다", "c": 1}], "edge_type": "PAYS"}
+{"root": "조절", "count": 1, "members": [{"l": "조절하다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "갚다", "count": 1, "members": [{"l": "갚다", "c": 1}], "edge_type": "PAYS"}
+{"root": "빠지다", "count": 1, "members": [{"l": "빠지다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "새다", "count": 1, "members": [{"l": "새다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "근접", "count": 1, "members": [{"l": "근접하다", "c": 1}], "edge_type": "SATISFIES"}
+{"root": "바꾸다", "count": 1, "members": [{"l": "바꾸다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "가리다", "count": 1, "members": [{"l": "가리다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "완결", "count": 1, "members": [{"l": "완결하다", "c": 1}], "edge_type": "TERMINATES"}
+{"root": "주어지다", "count": 1, "members": [{"l": "주어지다", "c": 1}], "edge_type": "GRANTS"}
+{"root": "할증", "count": 1, "members": [{"l": "할증하다", "c": 1}], "edge_type": "CALCULATES"}
+{"root": "시청", "count": 1, "members": [{"l": "시청하다", "c": 1}], "edge_type": "USES"}
+{"root": "밑돌다", "count": 1, "members": [{"l": "밑돌다", "c": 1}], "edge_type": "FALLS_SHORT_OF"}
+{"root": "제작", "count": 1, "members": [{"l": "제작하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "상근", "count": 1, "members": [{"l": "상근하다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "어지럽히다", "count": 1, "members": [{"l": "어지럽히다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "연결", "count": 1, "members": [{"l": "연결하다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "탈퇴", "count": 1, "members": [{"l": "탈퇴하다", "c": 1}], "edge_type": "RESIGNS"}
+{"root": "내려지다", "count": 1, "members": [{"l": "내려지다", "c": 1}], "edge_type": "SANCTIONS"}
+{"root": "논의", "count": 1, "members": [{"l": "논의하다", "c": 1}], "edge_type": "DELIBERATES"}
+{"root": "지불", "count": 1, "members": [{"l": "지불하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "불입", "count": 1, "members": [{"l": "불입되다", "c": 1}], "edge_type": "PAYS"}
+{"root": "분실", "count": 1, "members": [{"l": "분실하다", "c": 1}], "edge_type": "LOSES"}
+{"root": "발휘", "count": 1, "members": [{"l": "발휘되다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "이탈", "count": 1, "members": [{"l": "이탈하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "보강", "count": 1, "members": [{"l": "보강하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "회보", "count": 1, "members": [{"l": "회보하다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "독촉", "count": 1, "members": [{"l": "독촉하다", "c": 1}], "edge_type": "REQUESTS"}
+{"root": "동거", "count": 1, "members": [{"l": "동거하다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "전화", "count": 1, "members": [{"l": "전화하다", "c": 1}], "edge_type": "NOTIFIES"}
+{"root": "모이다", "count": 1, "members": [{"l": "모이다", "c": 1}], "edge_type": "CONVENES"}
+{"root": "경감", "count": 1, "members": [{"l": "경감하다", "c": 1}], "edge_type": "SANCTIONS"}
+{"root": "나아가다", "count": 1, "members": [{"l": "나아가다", "c": 1}], "edge_type": "CONTINUES"}
+{"root": "탈루", "count": 1, "members": [{"l": "탈루하다", "c": 1}], "edge_type": "VIOLATES"}
+{"root": "중계", "count": 1, "members": [{"l": "중계하다", "c": 1}], "edge_type": "DISCLOSES"}
+{"root": "재생", "count": 1, "members": [{"l": "재생되다", "c": 1}], "edge_type": "OCCURS"}
+{"root": "개회", "count": 1, "members": [{"l": "개회하다", "c": 1}], "edge_type": "CONVENES"}
+{"root": "극복", "count": 1, "members": [{"l": "극복하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "중임", "count": 1, "members": [{"l": "중임하다", "c": 1}], "edge_type": "APPOINTS"}
+{"root": "장려", "count": 1, "members": [{"l": "장려하다", "c": 1}], "edge_type": "SUPPORTS"}
+{"root": "중시", "count": 1, "members": [{"l": "중시하다", "c": 1}], "edge_type": "REVIEWS"}
+{"root": "겸임", "count": 1, "members": [{"l": "겸임하다", "c": 1}], "edge_type": "WORKS_AT"}
+{"root": "기리다", "count": 1, "members": [{"l": "기리다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "기념", "count": 1, "members": [{"l": "기념하다", "c": 1}], "edge_type": "PERFORMS"}
+{"root": "악화", "count": 1, "members": [{"l": "악화되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "감축", "count": 1, "members": [{"l": "감축하다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "대차", "count": 1, "members": [{"l": "대차하다", "c": 1}], "edge_type": "TRANSACTS_WITH"}
+{"root": "위축", "count": 1, "members": [{"l": "위축되다", "c": 1}], "edge_type": "AMENDS"}
+{"root": "기명", "count": 1, "members": [{"l": "기명하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "출납", "count": 1, "members": [{"l": "출납하다", "c": 1}], "edge_type": "PAYS"}
+{"root": "환송", "count": 1, "members": [{"l": "환송하다", "c": 1}], "edge_type": "TERMINATES"}
+{"root": "기탁", "count": 1, "members": [{"l": "기탁하다", "c": 1}], "edge_type": "ENTRUSTS_ASSET"}
+{"root": "철", "count": 1, "members": [{"l": "철하다", "c": 1}], "edge_type": "RECORDS"}
+{"root": "병용", "count": 1, "members": [{"l": "병용하다", "c": 1}], "edge_type": "USES"}

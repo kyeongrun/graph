@@ -10,15 +10,27 @@ pydantic==2.13.4
 pydantic-settings==2.14.1
 pyyaml==6.0.3
 python-dotenv==1.2.2
+opensearch-py==2.8.0  # added: OpenSearch client (entity/relation 인덱스, "5단계")
 
 # 형태소분석 (2단계: 동사 파악/그룹핑 파이프라인, Kiwi 기반)
 kiwipiepy==0.23.2
 kiwipiepy_model==0.23.0
 
-# 문서 추출용으로 도입했었으나 LLM 추출 방식은 폐기됨 (CLAUDE.md 참고).
-# ingest/document_extractor.py는 현재 미사용 — 재사용 시에만 주석 해제.
-# langchain-core==1.4.0
-# langchain-openai==1.2.1
+# LLM 클라이언트: "5단계"(CLAUDE.md 참고)의 좁은 역할(edge_type 소수
+# 후보 중 택1, 엔티티 타이핑/동일지시어 통합 보강, svo.py 파싱 실패
+# 폴백)에만 씀 — 자유형식 문서 전체 추출용이 아님. .env.dev의 VLLM_*로
+# 가리키는 자체 호스팅 vLLM 서버에 OpenAI 호환 API로 접속(폐쇄망 이전
+# 방향과 합치, "폐쇄망 이슈" 참고) — openai 패키지는 그 클라이언트일 뿐.
+openai==2.38.0  # added: vLLM OpenAI 호환 엔드포인트용 클라이언트 (graphdb.llm)
+
+# RAG 쿼리 API (그래프 탐색 + 시각화, 2026-08-16 추가): 질문 임베딩 ->
+# OpenSearch kNN으로 시드 엔티티/릴레이션 검색 -> AGE 그래프 탐색 ->
+# LLM 답변 생성. graphdb.embeddings 참고 — torch 대신 fastembed(ONNX
+# Runtime)로 다국어 임베딩 모델을 자체 호스팅(폐쇄망 방향과 합치,
+# OpenAI 임베딩 API 등 외부 의존 지양).
+fastembed==0.8.0  # added: 로컬 ONNX 임베딩 (graphdb.embeddings)
+fastapi==0.141.1  # added: 쿼리 API (graphdb.api.app)
+uvicorn[standard]==0.52.3  # added: FastAPI ASGI 서버
 
 # Test-only
 pytest==8.4.1  # added: test runner

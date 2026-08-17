@@ -18,5 +18,52 @@ services:
       timeout: 5s
       retries: 10
 
+  # RDB: document/entity/relation의 SSOT (CLAUDE.md "5단계" 참고). age-db와
+  # 별개 컨테이너 — AGE 이미지는 apache/age:release_PG16_1.5.0으로 PG16에
+  # 고정돼 있어서 버전을 못 올리고, RDB는 그 제약이 없으므로 17.10을 쓴다.
+  rdb:
+    image: postgres:17.10
+    container_name: internal-control-rdb
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${RDB_DB_USER:-rdb_admin}
+      POSTGRES_PASSWORD: ${RDB_DB_PASSWORD:-changeme}
+      POSTGRES_DB: ${RDB_DB_NAME:-internal_control}
+    ports:
+      - "${RDB_DB_PORT:-5434}:5432"
+    volumes:
+      - rdb-data:/var/lib/postgresql/data
+      - ./sql/init_rdb.sql:/docker-entrypoint-initdb.d/01_init_rdb.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${RDB_DB_USER:-rdb_admin} -d ${RDB_DB_NAME:-internal_control}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # OpenSearch: entity/relation 2개 인덱스 (description 임베딩). 로컬 개발
+  # 편의를 위해 보안 플러그인을 끈 단일 노드 구성 — 운영 배포 시엔 재검토 필요.
+  opensearch:
+    image: opensearchproject/opensearch:2.18.0
+    container_name: internal-control-opensearch
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      # OpenSearch 2.12+ 이미지의 entrypoint는 plugins.security.disabled
+      # yml 설정이 아니라 이 env var로 보안 데모 설치 자체를 건너뛴다
+      # (안 끄면 OPENSEARCH_INITIAL_ADMIN_PASSWORD 없다고 부팅 실패함).
+      DISABLE_SECURITY_PLUGIN: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
+    ports:
+      - "${OPENSEARCH_PORT:-9200}:9200"
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
 volumes:
   age-db-data:
+  rdb-data:
+  opensearch-data:

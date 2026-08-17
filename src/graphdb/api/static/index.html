@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>금융지주 내부통제 법령 그래프 탐색</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --border: #2a2f3a; --text: #e6e8ec;
+    --muted: #9aa2b1; --accent: #5b8cff;
+    --org: #5b8cff; --person: #ff9f5b; --doc: #6bd08a; --concept: #c98bff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+         background: var(--bg); color: var(--text); height: 100vh; display: flex; flex-direction: column; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 16px; margin: 0 0 10px; font-weight: 600; color: var(--muted); }
+  form { display: flex; gap: 8px; }
+  input[type=text] { flex: 1; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border);
+                      background: var(--panel); color: var(--text); font-size: 14px; }
+  input[type=text]:focus { outline: 2px solid var(--accent); }
+  button { padding: 10px 18px; border-radius: 8px; border: none; background: var(--accent);
+           color: white; font-weight: 600; cursor: pointer; font-size: 14px; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  .options { display: flex; gap: 14px; margin-top: 8px; font-size: 12px; color: var(--muted); align-items: center; }
+  .options label { display: flex; gap: 4px; align-items: center; }
+  .options input[type=number] { width: 48px; background: var(--panel); border: 1px solid var(--border);
+                                  color: var(--text); border-radius: 4px; padding: 2px 4px; }
+  main { flex: 1; display: flex; min-height: 0; }
+  #graph { flex: 1.4; min-width: 0; border-right: 1px solid var(--border); background: #0b0d11; }
+  #side { flex: 1; min-width: 320px; max-width: 480px; overflow-y: auto; padding: 16px 20px; }
+  #answer { white-space: pre-wrap; line-height: 1.6; font-size: 14px; }
+  #answer.empty { color: var(--muted); }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; font-size: 11px; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 4px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 20px 0 8px; }
+  #seeds { list-style: none; padding: 0; margin: 0; font-size: 13px; }
+  #seeds li { padding: 6px 0; border-bottom: 1px solid var(--border); }
+  .stat { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .spinner { display: none; font-size: 12px; color: var(--muted); margin-left: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>금융지주 내부통제 법령 지식그래프 — 질문 검색</h1>
+  <form id="query-form">
+    <input type="text" id="question" placeholder="예: 감사원장은 어떻게 임명되나요?" autocomplete="off">
+    <button type="submit" id="submit-btn">검색</button>
+    <span class="spinner" id="spinner">탐색 중…</span>
+  </form>
+  <div class="options">
+    <label>top_k <input type="number" id="top_k" value="5" min="1" max="20"></label>
+    <label>depth <input type="number" id="depth" value="1" min="1" max="3"></label>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--org)"></span>Organization</span>
+      <span><span class="dot" style="background:var(--person)"></span>Person</span>
+      <span><span class="dot" style="background:var(--doc)"></span>LegalDocument</span>
+      <span><span class="dot" style="background:var(--concept)"></span>Concept</span>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="graph"></div>
+  <div id="side">
+    <h2>답변</h2>
+    <div id="answer" class="empty">질문을 입력하고 검색을 눌러주세요.</div>
+    <div id="stats" class="stat"></div>
+    <h2>시드 엔티티 (kNN 유사도 상위)</h2>
+    <ul id="seeds"></ul>
+  </div>
+</main>
+<script>
+const COLORS = {
+  Organization: getComputedStyle(document.documentElement).getPropertyValue('--org').trim(),
+  Person: getComputedStyle(document.documentElement).getPropertyValue('--person').trim(),
+  LegalDocument: getComputedStyle(document.documentElement).getPropertyValue('--doc').trim(),
+  Concept: getComputedStyle(document.documentElement).getPropertyValue('--concept').trim(),
+};
+
+let network = null;
+
+function renderGraph(nodes, edges) {
+  const visNodes = nodes.map(n => ({
+    id: n.id,
+    label: n.name || n.id.slice(0, 8),
+    title: `${n.name || ''} (${n.label || '?'})\n${n.description || ''}`,
+    color: { background: COLORS[n.label] || '#666', border: '#0b0d11' },
+    font: { color: '#e6e8ec', size: 13 },
+    shape: 'dot',
+    size: 14,
+  }));
+  const visEdges = edges.map(e => ({
+    id: e.id,
+    from: e.source,
+    to: e.target,
+    label: e.edge_type,
+    arrows: 'to',
+    font: { color: '#9aa2b1', size: 10, strokeWidth: 0 },
+    color: { color: '#3a4050', highlight: '#5b8cff' },
+    title: `${e.source_law || ''} 제${e.article_no || '?'}조${e.paragraph_no ? ' 제' + e.paragraph_no + '항' : ''}\nmodality=${e.modality}, voice=${e.voice}`,
+  }));
+
+  const container = document.getElementById('graph');
+  const data = { nodes: new vis.DataSet(visNodes), edges: new vis.DataSet(visEdges) };
+  const options = {
+    physics: { stabilization: true, barnesHut: { gravitationalConstant: -3000, springLength: 120 } },
+    interaction: { hover: true, tooltipDelay: 100 },
+    edges: { smooth: { type: 'dynamic' } },
+  };
+  if (network) network.destroy();
+  network = new vis.Network(container, data, options);
+}
+
+function renderSeeds(seeds) {
+  const ul = document.getElementById('seeds');
+  ul.innerHTML = '';
+  seeds
+    .slice()
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .forEach(s => {
+      const li = document.createElement('li');
+      const label = s.label ? ` (${s.label})` : '';
+      const score = s.score !== undefined && s.score !== null ? s.score.toFixed(3) : '-';
+      li.textContent = `${s.name || s.id}${label} — score ${score}`;
+      ul.appendChild(li);
+    });
+}
+
+async function runQuery(question, topK, depth) {
+  const btn = document.getElementById('submit-btn');
+  const spinner = document.getElementById('spinner');
+  const answerEl = document.getElementById('answer');
+  btn.disabled = true;
+  spinner.style.display = 'inline';
+  answerEl.textContent = '';
+  answerEl.classList.add('empty');
+
+  try {
+    const res = await fetch('/api/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, top_k: topK, depth }),
+    });
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`HTTP ${res.status}: ${text}`);
+    }
+    const data = await res.json();
+    answerEl.textContent = data.answer;
+    answerEl.classList.remove('empty');
+    const extras = [];
+    if (data.context_truncated) extras.push('컨텍스트 잘림');
+    if (data.hub_seeds_capped > 0) extras.push(`허브 시드 ${data.hub_seeds_capped}개 depth 제한됨`);
+    if (data.edge_type_source) {
+      extras.push(`edge_type 필터: ${data.edge_type_source}${data.edge_type_refined ? '+좁힘' : ''}`);
+    }
+    document.getElementById('stats').textContent =
+      `노드 ${data.nodes.length}개 · 엣지 ${data.edges.length}개 · 시드 ${data.seed_entities.length}개`
+      + (extras.length ? ` · ${extras.join(' · ')}` : '');
+    renderSeeds(data.seed_entities);
+    renderGraph(data.nodes, data.edges);
+  } catch (err) {
+    answerEl.textContent = '오류: ' + err.message;
+    answerEl.classList.remove('empty');
+  } finally {
+    btn.disabled = false;
+    spinner.style.display = 'none';
+  }
+}
+
+document.getElementById('query-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const question = document.getElementById('question').value.trim();
+  if (!question) return;
+  const topK = parseInt(document.getElementById('top_k').value, 10) || 5;
+  const depth = parseInt(document.getElementById('depth').value, 10) || 1;
+  runQuery(question, topK, depth);
+});
+</script>
+</body>
+</html>
